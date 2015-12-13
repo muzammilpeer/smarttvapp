@@ -1,0 +1,2077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0344D571D674AB62EB7DA6C0E2E4B5B3 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0420393FB66B0681D260A1183A0464 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0392CBAD9326CB0E619CBCD4BC4E8A23 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 851714DC6361465635D9C3E5BEE1617A /* AFNetworkActivityIndicatorManager.m */; };
+		0494C13EDA2F17FF4B53BE22A2297B7D /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBCB669C86A4D021FD13B413324E60C /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077ABD9EF9C1579DD146CC3B626B45E5 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B03913932CF9A3825245A05FEEADA1B5 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		080C516449759AC0ECA147D33E67B0A5 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A45A98FF5BEF16D31E367486E76DC /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		0988A9EA97C84F5A47CAA33E5764EE2D /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7880D0DACF0A4561538FAABA65E55991 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AECCDCE14EB47B19D82413EB73412AA /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB697948350A609DFD442EF228DDF0B /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		0C7941D8F32D2935321075211BB5F349 /* UIViewController+MFSideMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B66B7D4A225DA5DECAD29AC5DA1A9F2 /* UIViewController+MFSideMenuAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0FC58424204FF1EC87D2C204E68B814E /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BDE9E5C95742ACFF00B85632603E47 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12EDB7618E84C01594069E846D6B8A0B /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB697948350A609DFD442EF228DDF0B /* DDTTYLogger.m */; };
+		12F2A2E590F6FD5FD12B85709812AB8E /* UIViewController+MFSideMenuAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 11EF4EC2DE88ACB27DBC51B3CDBAD14E /* UIViewController+MFSideMenuAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		135D19029A1F23D40B48B3B7333B2B02 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A7484D96C4F161FA0998C79C5E0F02 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		182D87A02E4762C2BE597240C6B228F6 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B03913932CF9A3825245A05FEEADA1B5 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19B3DC28B409E60F7E1D4F3D3F980504 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AF79EC6CC84A8D0AEECBC429AAC72F33 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A8D9C956B8C8D2C78CC23A696228547 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A6754E4234640744C34CFCAC7387189F /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C8D6B103C9C5B32F4677A2F3512DDF0 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A529773EEA241CC52CFD51159882C463 /* AFAutoPurgingImageCache.m */; };
+		1E9613E6BAA8183464FB6E3C3E4564D8 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C70193C85228D01F6653F005CE702A /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		1F53A26205D77D2B9F06150BD34535BE /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7658C8F8D9099600A6476F4F9CC63D /* UIImageView+AFNetworking.m */; };
+		1FFFD62CDF120000E0B6AEA56AC897B6 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B227A93E537EC14E3A8D20B21671EF5 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21CDC6B5BF389A30138B1E8B570B0519 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA68E85CA8DF00A108E6F24378473E1 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22A1C1A853CF508AC7E1D88D4FBB8F52 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F79753DC66524FD8C735D3CDC2C718F5 /* UIRefreshControl+AFNetworking.m */; };
+		23D9DBCF537D4E08505B34AC6E2D2B07 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F66C5381BED45FE1BA57499C4C41BD49 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24CC1D272E2C93D965BA931DE98B28D7 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DB45129DF2F0AD060A113818793F537D /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		253E5D0295C18D99DDAA2FB12F37AEB3 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D865B0604BF80F2E9CCC9F95489D87A /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C8E374760DEF0ED0C61385031D3255 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 851714DC6361465635D9C3E5BEE1617A /* AFNetworkActivityIndicatorManager.m */; };
+		27E4DCCE6519BFF353BB13A2ACB4E32D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AF79EC6CC84A8D0AEECBC429AAC72F33 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		284EE9D19F75DF7CAE5299D78F2537AF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CC1C249C504CEF9F3EE9623952D70C /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2889992BABD149D334C2C99ABE79158E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74313054E725117CB47BDA866BFD3D1C /* Foundation.framework */; };
+		2989492A1A182744E36FD61DF1746D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC658CC5A1FE9FE93828BEEB68F456EF /* Foundation.framework */; };
+		29D85779A579ED00AE6A9157FADEF5CD /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C317B66D8B044752116369E10708E108 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		2C51FF16ABA93F7F8825659D6B9877E4 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE702ECC3855DD8FCFCA12DBC6BC /* UIWebView+AFNetworking.m */; };
+		2C709EC73A5B7C70C1B09E656AEF75BD /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 537082FB8CE7F3EABE6ECFE2D3315F11 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D62E5B43A42B452723097984EEE289C /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF48A28FC28DF6ABCFCD8FDC7533EC6 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E280CB2772BC4BEDDBBA61A63F30726 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A45A98FF5BEF16D31E367486E76DC /* DDDispatchQueueLogFormatter.m */; };
+		2F505DE81757A2AEBF6550F06C422966 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CA04ACC3B9316520DAE4D853AF1EE228 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31E6220CF98439F758B7002C5339C44D /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C629F2C2F9D8CB73A3D59235CBA075D6 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CA15E891F23B7618339A20EABF52DF /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FA773717B735AF6AB2A0646A662F87 /* DDLog.m */; };
+		33BFDC414684D6F82FFD96EC7DD4BF53 /* Pods-SmartTvPakistan-TV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB89B2CE7D66309D7AB9FA85DF13D71 /* Pods-SmartTvPakistan-TV-dummy.m */; };
+		33D79F43B875E171A1F01F30D7912BA3 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 050568AB22AA8FDB248F851E704E0D82 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34B0348F4BD0F2D6F56ED17CEF3F9816 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AF79EC6CC84A8D0AEECBC429AAC72F33 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34C5C0A110F606448DF2B2A8A885564E /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D865B0604BF80F2E9CCC9F95489D87A /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DB3BFBDE23CA1A20852507DF268A99 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 261B275EEF515A62245F440058AEDAF5 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C556E8C99C890A7C5B52B92BB684163 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7407B58D57D1209758BA381861CC003B /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DDF79F33DB79518BB1C7D32A622B15E /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 050568AB22AA8FDB248F851E704E0D82 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F6FA729765F0B777809C216148034FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01CA58BD68DA8BD81E715FA85FED722 /* Security.framework */; };
+		41041566E21A30D7893543456463D1F0 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 780A85370CAE7A1158B9C168A045AB6B /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		435C57F722209973BF76506DAC1F5A49 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBCB669C86A4D021FD13B413324E60C /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43CF8FE3A69CD7C365C27D85A10508FE /* Pods-SmartTvPakistan-TV-CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CA3544DD2D1456002F14339489270D /* Pods-SmartTvPakistan-TV-CocoaLumberjack-dummy.m */; };
+		460A39599CDEA913FD70027479B121AA /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CA04ACC3B9316520DAE4D853AF1EE228 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4684668DD30BA446AAB04EA1DEF78BAF /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D15CC0236EA03B552956D6AC40EFC27 /* AFSecurityPolicy.m */; };
+		4A94B717EF3E4FB46987AF5A9764C848 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C73B441646357C370503A39CA4997C /* AFNetworkReachabilityManager.m */; };
+		4DB577C1A0F4730508E8B8D72AAAF7E9 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A6754E4234640744C34CFCAC7387189F /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FF7322FA731B0003635869A3610DBC6 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF48A28FC28DF6ABCFCD8FDC7533EC6 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5150CC193FD544D94A6D53265E86EDE2 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E5F54DC19D994E6BCE71B6CDF29F06 /* AFURLResponseSerialization.m */; };
+		52515F881E7B6D6942559DCF9C9E7D86 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E5F54DC19D994E6BCE71B6CDF29F06 /* AFURLResponseSerialization.m */; };
+		52E7BC365D81E3B663E3F23DE86773D4 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB697948350A609DFD442EF228DDF0B /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		55FEDA6F32624FC67C91AECD31F5BFA1 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA68E85CA8DF00A108E6F24378473E1 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57C72E2374BE18D41AFF8DDDCE28DC76 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2D8BAB2F2621CB7F33318A5C5A873E /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58183737A099A7B14B15CAA4AD0A941F /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EA3C72CF9C8D4DC4F555DD4781A4FE /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59459985A9BB21C6726C919C4C049F2A /* Pods-SmartTvPakistan-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BECA7DBFC04E0EAF696646E7AF8DDB5 /* Pods-SmartTvPakistan-AFNetworking-dummy.m */; };
+		5B248C75B99F705C227A9420FF3D32A5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1818B00A4B3AE7F9404D4B4C231B3B7 /* Security.framework */; };
+		5D83C955685471281B05062554FC7C1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC658CC5A1FE9FE93828BEEB68F456EF /* Foundation.framework */; };
+		5E77829528301CFAD7A3BBA44039189F /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CA04ACC3B9316520DAE4D853AF1EE228 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EB4F27B76513AE918BA5AE0868E87C8 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 6478D77F5C7441D9925FBE534507A912 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F2442C101F1E8D3E6ED0DD515E5B9B2 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 851714DC6361465635D9C3E5BEE1617A /* AFNetworkActivityIndicatorManager.m */; };
+		5F310CA9BF103E8201868338C3C1513F /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A45A98FF5BEF16D31E367486E76DC /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		61167F0A0A6D8548FD5FAF062A090FD2 /* Pods-SmartTvPakistan-TV-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C28DB9837150A62CC2123AEE442C052 /* Pods-SmartTvPakistan-TV-AFNetworking-dummy.m */; };
+		6409750B56FC1655C3ECB702D2DE4400 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D2B205C41160645FD4A37B0E494368 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65780609DBFAC376A3D762E86C39F5D2 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E522478A44BC82F42C8656EF1BF0E6B /* AFImageDownloader.m */; };
+		659DA7CF20F16AC636988D8100CE7FBA /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D865B0604BF80F2E9CCC9F95489D87A /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65AAC967D520EE168C4398C904294F1D /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B920634CD54EA3B734C94E13059F66F /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E4B07418FDA23811E5D43EAEC07997 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90827F10A9F0E06E40B79F568E56CB1C /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67903F5D44487CD0A2D6CF6A74596E08 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 411789A28ABA81BB8030ABAAC39C0F9B /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67DE09709CBB32522068FE666B9015F1 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FA773717B735AF6AB2A0646A662F87 /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		68C0C64D0062078583F36F696041E267 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F79753DC66524FD8C735D3CDC2C718F5 /* UIRefreshControl+AFNetworking.m */; };
+		68EC6000E10219CCFDD1E5450355A105 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C182ED58228E41100E35672C3C9795 /* UIProgressView+AFNetworking.m */; };
+		6B942028FDFF6A0D7D60E3A8B200999C /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0348DAA541D72444D4BEDA4261C407 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BC6490D232053A535F0CACE8572FB1B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF6D2D984E359A46B4CB06024CAE0D0 /* AFURLSessionManager.m */; };
+		6CA27E1786E1B3A8854CFCB7B898241E /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A6754E4234640744C34CFCAC7387189F /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		707F91EAE799703F0D112DAEF0DD2153 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF6D2D984E359A46B4CB06024CAE0D0 /* AFURLSessionManager.m */; };
+		70D801E0B95C23BCC270E4EC8659D463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BD34C178301C66DC9725FE53CBA796 /* CoreGraphics.framework */; };
+		70E5C8AB4D2B6E888A531C096C21CA8E /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0348DAA541D72444D4BEDA4261C407 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70E75F83063C254522595AEAAFF06CE2 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 261B275EEF515A62245F440058AEDAF5 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71D4E7FCCCE052DCBD9636BCD76AA68B /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBB941BB7C05301D9AE615A05E142A6 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C4D96F2F2CBE5F0C4E84E407BD5648 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBB941BB7C05301D9AE615A05E142A6 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74E1DE2E4177B1AA2F3B9E80780C1899 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A529773EEA241CC52CFD51159882C463 /* AFAutoPurgingImageCache.m */; };
+		7541B98373F6E04673774EF9D58FDCA5 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F41FCFE4B5CAFC7EFDEDA36EAF5A248D /* UIActivityIndicatorView+AFNetworking.m */; };
+		75F19EC7299E243F11BDA9BBA4860A34 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90827F10A9F0E06E40B79F568E56CB1C /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		774C6BDF67A0AFCC8F53C4AD67B3D5F3 /* MFSideMenuContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA12E1B99820595B1FAC9928A640494 /* MFSideMenuContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		787103585EBDBD9F1BC16EEA86CD2AEF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01CA58BD68DA8BD81E715FA85FED722 /* Security.framework */; };
+		794DFCC5EBC2E663B44BC75276E8848C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E522478A44BC82F42C8656EF1BF0E6B /* AFImageDownloader.m */; };
+		79D9EB1C55EA727DA31E9AA93B8834C3 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED67E38BA39E01FD1D1E2D6AA1F97F2 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BC2ECAB977FD5C6852C359F19B58964 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B920634CD54EA3B734C94E13059F66F /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD4D4F5A97A1FC1E69FD1F6E3A43978 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A81F97FBE25BAAD9DD1AC212DEB964 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CE38EE1056AA8572C5C406F2B0F6D64 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DB45129DF2F0AD060A113818793F537D /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ED032B1BFF63E8AE295369E3E51A1B9 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6361BD38E602EEC7311088485701DD16 /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		7F06F84E304F7BF9F3AC0E7BACC5783A /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 411789A28ABA81BB8030ABAAC39C0F9B /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F207CB791B41267B09FB3239EF6456A /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F66C5381BED45FE1BA57499C4C41BD49 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80F272123BB857A9323B9E47289CBEF6 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B227A93E537EC14E3A8D20B21671EF5 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8255BC070D217FE2EDFCCC27C4C85CE8 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E5F54DC19D994E6BCE71B6CDF29F06 /* AFURLResponseSerialization.m */; };
+		82FC12F67E83874B93592218E9FB4CA0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2714FA35AC167D1DB1E7C24C5B1BC803 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		85C144335B731E145E3F2BBF543F4D58 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 780A85370CAE7A1158B9C168A045AB6B /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		861737E82E328AC2152E7E357EE77FB4 /* Pods-SmartTvPakistan-Watch-CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2620FB6399EC90ED4E733E55DB6570 /* Pods-SmartTvPakistan-Watch-CocoaLumberjack-dummy.m */; };
+		89B1274BAACAA8AE7882C8F9741D317E /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC9AAE4A506ECDEC803027103A85CB2 /* MFSideMenuContainerViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8E26658217EC420DF1528F6613A73FA0 /* MFSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB54EEC0014E99E0C156D3C04E80CE /* MFSideMenu-dummy.m */; };
+		8E293BCCB2DF9DD9FBF7E94966063826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC658CC5A1FE9FE93828BEEB68F456EF /* Foundation.framework */; };
+		8E85C05FEA187EBEC8B1918F42D2807D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC658CC5A1FE9FE93828BEEB68F456EF /* Foundation.framework */; };
+		8ED242552CDC31904EDFF9CC548E52CC /* Pods-SmartTvPakistan-Watch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20382CA778993B0525722B9ED2F6F056 /* Pods-SmartTvPakistan-Watch-dummy.m */; };
+		91740042270E206E7904B8A0829C2DFF /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 411789A28ABA81BB8030ABAAC39C0F9B /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		952E15955B4637F121496DE306522EEC /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B920634CD54EA3B734C94E13059F66F /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9540BCD8C399E4F58AEB116210041729 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EA3C72CF9C8D4DC4F555DD4781A4FE /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D12088E31CFD6678158434622F86DD /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7407B58D57D1209758BA381861CC003B /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98DA725164776BD35E4D06BE121CE437 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CC1C249C504CEF9F3EE9623952D70C /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		998B36BBFBDCB6D9B434C0BD91C8998B /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C629F2C2F9D8CB73A3D59235CBA075D6 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ACE1E869B518948D9B747275944E3C3 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 050568AB22AA8FDB248F851E704E0D82 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AFC949CEEC21CFE56AB8240D7352761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC658CC5A1FE9FE93828BEEB68F456EF /* Foundation.framework */; };
+		9B05C6686E9376B01A051450876BFF56 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C629F2C2F9D8CB73A3D59235CBA075D6 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B1293E041B3A03665F472261338C1DA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6E6EA505D29DB655C430D3E82A78EA /* UIButton+AFNetworking.m */; };
+		9B227F4BFF751B36DC4FE35683F9479F /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0348DAA541D72444D4BEDA4261C407 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B25BBB5F62607F92A2BAC6C8B4FD854 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 835B7992087768B1EE1D4B904CB2E86B /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A02ECB46D3A37E4FAB09B89721FAF9C2 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7880D0DACF0A4561538FAABA65E55991 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1A9E9BE28AE3E982489C5C90B7D8CBD /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C182ED58228E41100E35672C3C9795 /* UIProgressView+AFNetworking.m */; };
+		A324F30C083B259F25917F6A2B4E2412 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B227A93E537EC14E3A8D20B21671EF5 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3E0162667CCAD007FF10EF4419F5637 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A7484D96C4F161FA0998C79C5E0F02 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6DD9BF378242A85305D4C7CCC9E0941 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7407B58D57D1209758BA381861CC003B /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A82B0B1376DACB50F07319BFA2DF9611 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D2B205C41160645FD4A37B0E494368 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA64D5931F3CF5CF313A21ACBB0B1D40 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D26A09E5F2B6288886CAB9D580BD95 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		AA715CAD63299CCACFF00B35F4B0C641 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C317B66D8B044752116369E10708E108 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		AAE451F21C76F4D2C8F35DE6A8F9935C /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D26A09E5F2B6288886CAB9D580BD95 /* DDFileLogger.m */; };
+		AB7EFB4AFA408E6F74774F5C88ED6F0F /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7880D0DACF0A4561538FAABA65E55991 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA16B96370E7478C428193BB54D30E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A9EF59C0E0372F6CC2904AEE1E4468 /* SystemConfiguration.framework */; };
+		ADC3298AB7FC6B7597A4857FFFE79A04 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D15CC0236EA03B552956D6AC40EFC27 /* AFSecurityPolicy.m */; };
+		AE4DC409062638884052D33E6FCA6A2B /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE702ECC3855DD8FCFCA12DBC6BC /* UIWebView+AFNetworking.m */; };
+		AF1CC6184D08DB2C2E4F35871FCC9CCD /* MFSideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7850EA82A41635578BEEB1CC17390A /* MFSideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF8C15BCE75117370E259DB61E47DCB8 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED67E38BA39E01FD1D1E2D6AA1F97F2 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B008B39ADC836CB11A1554B6149111F9 /* Pods-SmartTvPakistan-Watch-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1716E1E8504D00500CC24A4327930 /* Pods-SmartTvPakistan-Watch-AFNetworking-dummy.m */; };
+		B0FFFC799CE12E22B11BD0764B772460 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CC1C249C504CEF9F3EE9623952D70C /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A23C896EABE55DA0E41F1B0700B226 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6361BD38E602EEC7311088485701DD16 /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		B1E8A9643A93C2DC5D7654517A4A706C /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F41FCFE4B5CAFC7EFDEDA36EAF5A248D /* UIActivityIndicatorView+AFNetworking.m */; };
+		B4B4DC4A2A31E444446CE9EF76CFDE43 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDC13962D96F89B652BCBAE1B1A25DE /* SystemConfiguration.framework */; };
+		B583B28D634BDD2356A7B560C9C59F9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BD34C178301C66DC9725FE53CBA796 /* CoreGraphics.framework */; };
+		B75179298F3033796C196B7FB2CFE3D1 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2D8BAB2F2621CB7F33318A5C5A873E /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7827ADE368211BF1E81C7FC795DF7C1 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6DDB240A6C7E7EDD4611E328AA6A18 /* AFURLRequestSerialization.m */; };
+		B8ECD78AA3665EB274160224C26C8083 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A9EF59C0E0372F6CC2904AEE1E4468 /* SystemConfiguration.framework */; };
+		B94EA911F37B73345FD1D19C6197B298 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EA3C72CF9C8D4DC4F555DD4781A4FE /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAD59724011719A8791CE000893EE66D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC658CC5A1FE9FE93828BEEB68F456EF /* Foundation.framework */; };
+		BB109FC0CE621A01CB6776D3D580CFC4 /* MFSideMenuShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = A0083E5E6B8737576951C7A1ACC78B38 /* MFSideMenuShadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB881050EDB62FD32DB1D108FEB3D1E3 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6E6EA505D29DB655C430D3E82A78EA /* UIButton+AFNetworking.m */; };
+		BC520C1D53C41C03AF4A5AD73255CA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74313054E725117CB47BDA866BFD3D1C /* Foundation.framework */; };
+		BC99BB4F68F853D8421861ADC7AFDC19 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C70193C85228D01F6653F005CE702A /* DDAbstractDatabaseLogger.m */; };
+		BD268C26C7DF9F12850E7D64CF506D89 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7658C8F8D9099600A6476F4F9CC63D /* UIImageView+AFNetworking.m */; };
+		BF13822C0461A196A7B0406997A026FD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 835B7992087768B1EE1D4B904CB2E86B /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB9034BC9969741C87D4FF07211D566 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF48A28FC28DF6ABCFCD8FDC7533EC6 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFE583CB9F39C6B3807E1F37FC0BE1EC /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B03913932CF9A3825245A05FEEADA1B5 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C032C45F37FCD10418D69975D5D5CD40 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 835B7992087768B1EE1D4B904CB2E86B /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0D2FA820B56012D6B67BF8D0D3C0EDC /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D24BCE7A454658735C1A6B6E19816E /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		C264E9A88AE28ABE36C2580D890DA8EE /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A7484D96C4F161FA0998C79C5E0F02 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C30827CA13B0DFACAF31D588B7E4EC2F /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A81F97FBE25BAAD9DD1AC212DEB964 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C42073F8C3905BB38AEE4919EFBDA8AD /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBB941BB7C05301D9AE615A05E142A6 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4F4123B8579AE6F51FD87E61EAAB978 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6361BD38E602EEC7311088485701DD16 /* DDContextFilterLogFormatter.m */; };
+		C5246D2F6DA46E6E83E0F7C38B2FDB52 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED67E38BA39E01FD1D1E2D6AA1F97F2 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C55BAF7B5D4D88F133BA94DD9F889336 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D24BCE7A454658735C1A6B6E19816E /* DDASLLogger.m */; };
+		C5C4E91DBC3761C6EB44D6920C38C045 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D26A09E5F2B6288886CAB9D580BD95 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		C614ED55AA53302376572632D519CD37 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BDE9E5C95742ACFF00B85632603E47 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7CA9E0C38808AC9CC3AF71FBFBD2562 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C317B66D8B044752116369E10708E108 /* DDASLLogCapture.m */; };
+		CA86438F69B9AD978D1C2581971DFADE /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0420393FB66B0681D260A1183A0464 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC837E547E1BAC4084E69F48682F54B0 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 537082FB8CE7F3EABE6ECFE2D3315F11 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE970955EA5988AA48D0F494B84BC597 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0105C608139E82B70EB7CC24B4E808A5 /* AFHTTPSessionManager.m */; };
+		CF34C73E282BAB59B7522354847BB99E /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 261B275EEF515A62245F440058AEDAF5 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF4A053BDC6397EC3E0C75B4B930C4B6 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0105C608139E82B70EB7CC24B4E808A5 /* AFHTTPSessionManager.m */; };
+		CFBB7C66FEC2D401027F0891070AC808 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7658C8F8D9099600A6476F4F9CC63D /* UIImageView+AFNetworking.m */; };
+		D4DE2A3A7C9B65AE46F42F7D0C41B036 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2D8BAB2F2621CB7F33318A5C5A873E /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4E6EDEE9DA9D3FF7DB7E6E21CC7D38A /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 537082FB8CE7F3EABE6ECFE2D3315F11 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D57A93570F1CB8850568C309AED304BE /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C73B441646357C370503A39CA4997C /* AFNetworkReachabilityManager.m */; };
+		D755CA5EE6965C7615634A5B8F6E4035 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C182ED58228E41100E35672C3C9795 /* UIProgressView+AFNetworking.m */; };
+		D8198E2868BF49A0E2B30560ACBDCE1A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0105C608139E82B70EB7CC24B4E808A5 /* AFHTTPSessionManager.m */; };
+		D83E3994D039F12C1D67BEE9D39FA004 /* MFSideMenuShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 772542170859563B8A8D49FCB99E6DD2 /* MFSideMenuShadow.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D8CE34D27788FC5E2175C3746F46AC67 /* Pods-SmartTvPakistan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F9B93CE3477E090FD9710AC3ACB636 /* Pods-SmartTvPakistan-dummy.m */; };
+		DB64DBCA9742CA0FDABB016BAF320D35 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DB45129DF2F0AD060A113818793F537D /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBDD8F49FE4ED71BA0181A3940D379D1 /* Pods-SmartTvPakistan-CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C525D7CE3883D999C2D46DC0F63DC7F1 /* Pods-SmartTvPakistan-CocoaLumberjack-dummy.m */; };
+		DC4B528FC984FA559C1422495A503223 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FA773717B735AF6AB2A0646A662F87 /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		DFB882CB62CCBCCEE5E78E3E914CD555 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6DDB240A6C7E7EDD4611E328AA6A18 /* AFURLRequestSerialization.m */; };
+		E07C6F7FEF6F3BA4324574F8688668B4 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D15CC0236EA03B552956D6AC40EFC27 /* AFSecurityPolicy.m */; };
+		E0C44675198F713D9F931C7D1646AAF6 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE702ECC3855DD8FCFCA12DBC6BC /* UIWebView+AFNetworking.m */; };
+		E24539707175E53E35BA9FF6CE79E914 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6DDB240A6C7E7EDD4611E328AA6A18 /* AFURLRequestSerialization.m */; };
+		E4A30C5656BD18C16827549B495442DB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFDF52AE050FF268F0A6CC5C4596A4A /* MobileCoreServices.framework */; };
+		E664671862C5279C223A2F0946AC02C9 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F66C5381BED45FE1BA57499C4C41BD49 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6DF609D061548571EAA4AAFEA5E6D09 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF6D2D984E359A46B4CB06024CAE0D0 /* AFURLSessionManager.m */; };
+		E6F814C94465E91B8BA8C8AA00CCBB39 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C70193C85228D01F6653F005CE702A /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		E794AB50D70E0CF756B586FA4C48D55B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C74CA8B6C1BA260980CFBB8343E274FF /* QuartzCore.framework */; };
+		E8BDD34EB3478B5B286F4D3EAB776A87 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBCB669C86A4D021FD13B413324E60C /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D016EB1FA63D52D64098F1B96A979A /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C73B441646357C370503A39CA4997C /* AFNetworkReachabilityManager.m */; };
+		E9DAED9C03AFC83A5799C4162E2F62BF /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0420393FB66B0681D260A1183A0464 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EABE8EEE1EC9423F7EC4F210CE44D065 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D2B205C41160645FD4A37B0E494368 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB2103816A9695A6A837998C4B5D711E /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A81F97FBE25BAAD9DD1AC212DEB964 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC08CA20D783A998357F0B7486197939 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BD34C178301C66DC9725FE53CBA796 /* CoreGraphics.framework */; };
+		EC1036496DAB2C336B0C60F8BCB1D7C4 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BDE9E5C95742ACFF00B85632603E47 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC7EB0784CE599AEFA0C23059A79ACC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74313054E725117CB47BDA866BFD3D1C /* Foundation.framework */; };
+		EC8171A21CBFEED5CB9E1280514A4FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC658CC5A1FE9FE93828BEEB68F456EF /* Foundation.framework */; };
+		ED5DC5FA2205885AECE5858F53E76648 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F79753DC66524FD8C735D3CDC2C718F5 /* UIRefreshControl+AFNetworking.m */; };
+		F1C15C8FF0B84B03838F02999133B3C8 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A529773EEA241CC52CFD51159882C463 /* AFAutoPurgingImageCache.m */; };
+		F221B135A498A2A390A966B6FF535C91 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F41FCFE4B5CAFC7EFDEDA36EAF5A248D /* UIActivityIndicatorView+AFNetworking.m */; };
+		F67E0FB28F2D73F16881382CF4B105F8 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D24BCE7A454658735C1A6B6E19816E /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		F70CA9FE0A6DDEA70A78265A65757736 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFDF52AE050FF268F0A6CC5C4596A4A /* MobileCoreServices.framework */; };
+		F861FB34A4A6B0AF540F533FF52ED5AA /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 780A85370CAE7A1158B9C168A045AB6B /* DDMultiFormatter.m */; };
+		F93D75EC2474CAE5EC038DEA476257C8 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6E6EA505D29DB655C430D3E82A78EA /* UIButton+AFNetworking.m */; };
+		F956E0899E92C5E0E25CE6E09543BDFB /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90827F10A9F0E06E40B79F568E56CB1C /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA81B0580C251C3164641D94BA11FD72 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E522478A44BC82F42C8656EF1BF0E6B /* AFImageDownloader.m */; };
+		FA860E4B90FC07B0753FC6E1BA1D5B47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC658CC5A1FE9FE93828BEEB68F456EF /* Foundation.framework */; };
+		FB0E54ACE89D13EC0105920787B62900 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA68E85CA8DF00A108E6F24378473E1 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC214077677D4F02E03C6C85F774E028 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D971B2CC7ECC99AE80F4F9B1BB3B33F3 /* MBProgressHUD-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D1903730BA3BDA3C27B56DAAF757187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2F1D7B9D9FCEA148517E4657B243F4;
+			remoteInfo = MBProgressHUD;
+		};
+		1D3361FF033FE0AC0D6285BF3A7412AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AABBD71D3E610D5750161B53D6D46FB;
+			remoteInfo = "Pods-SmartTvPakistan-AFNetworking";
+		};
+		3AF2AD0758E3798FAA571B1A54582C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADFA4D880F7C5BC37B71B116E742BE09;
+			remoteInfo = "Pods-SmartTvPakistan-Watch-AFNetworking";
+		};
+		80C743AE10B90474DE101FDF386E5299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8156656B53564EEEEAEA98198B5E2C2;
+			remoteInfo = "Pods-SmartTvPakistan-Watch-CocoaLumberjack";
+		};
+		95AEB91D8633F578DA8AF2E47F5D4B76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87A3717E0B03B8DBD7DEDF91314290D;
+			remoteInfo = "Pods-SmartTvPakistan-TV-AFNetworking";
+		};
+		9BAD366B303413359DFF88CFEDF86BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9ED6C259AA74EBD230EF5879D87428C;
+			remoteInfo = "Pods-SmartTvPakistan-TV-CocoaLumberjack";
+		};
+		AE1AB2E4F913F58131CFD30F30E50D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2F1D7B9D9FCEA148517E4657B243F4;
+			remoteInfo = MBProgressHUD;
+		};
+		CAAB1AB2715E77DBD63AAFE7CB241085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FB3864CF47A4C4BD1587783785938C3;
+			remoteInfo = MFSideMenu;
+		};
+		D8976E24374BA7B24D46BF951839EEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FB3864CF47A4C4BD1587783785938C3;
+			remoteInfo = MFSideMenu;
+		};
+		EBF4095568F5B7DF4E7E4B6B579FBBC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF7D67B43887F76400F00B7AF3417E3;
+			remoteInfo = "Pods-SmartTvPakistan-CocoaLumberjack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0105C608139E82B70EB7CC24B4E808A5 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		01EFC10E95AB6AD82C437899DD10EC4B /* Pods-SmartTvPakistan-TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartTvPakistan-TV.release.xcconfig"; sourceTree = "<group>"; };
+		02A0A8D6C72D7506A1A28F7EEC25CA72 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		02C70193C85228D01F6653F005CE702A /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		02CA3544DD2D1456002F14339489270D /* Pods-SmartTvPakistan-TV-CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-SmartTvPakistan-TV-CocoaLumberjack-dummy.m"; path = "../Pods-SmartTvPakistan-TV-CocoaLumberjack/Pods-SmartTvPakistan-TV-CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		05002791F134C0DB2808D39A66EC75AA /* Pods-SmartTvPakistan-TV-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SmartTvPakistan-TV-AFNetworking-prefix.pch"; path = "../Pods-SmartTvPakistan-TV-AFNetworking/Pods-SmartTvPakistan-TV-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		050568AB22AA8FDB248F851E704E0D82 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		0E522478A44BC82F42C8656EF1BF0E6B /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		10A50E1DA4A3316D51DE05566E7E27A1 /* Pods-SmartTvPakistan-Watch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartTvPakistan-Watch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11D2B205C41160645FD4A37B0E494368 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		11EF4EC2DE88ACB27DBC51B3CDBAD14E /* UIViewController+MFSideMenuAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MFSideMenuAdditions.h"; path = "MFSideMenu/UIViewController+MFSideMenuAdditions.h"; sourceTree = "<group>"; };
+		197DD4541F54A3F1597349CE83C637A7 /* MFSideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFSideMenu-prefix.pch"; sourceTree = "<group>"; };
+		198BA4EFCC3AE33E29C781EA47F936C1 /* Pods-SmartTvPakistan-TV-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartTvPakistan-TV-frameworks.sh"; sourceTree = "<group>"; };
+		1B227A93E537EC14E3A8D20B21671EF5 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
+		1BB89B2CE7D66309D7AB9FA85DF13D71 /* Pods-SmartTvPakistan-TV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartTvPakistan-TV-dummy.m"; sourceTree = "<group>"; };
+		1BD2279161F90A79951CB6F6297B3770 /* libPods-SmartTvPakistan-Watch-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTvPakistan-Watch-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDC13962D96F89B652BCBAE1B1A25DE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		1C6E6EA505D29DB655C430D3E82A78EA /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		1CF48A28FC28DF6ABCFCD8FDC7533EC6 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		1EFE2C90519D942B68781C44E879527B /* MFSideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFSideMenu.xcconfig; sourceTree = "<group>"; };
+		20382CA778993B0525722B9ED2F6F056 /* Pods-SmartTvPakistan-Watch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartTvPakistan-Watch-dummy.m"; sourceTree = "<group>"; };
+		261B275EEF515A62245F440058AEDAF5 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
+		2714FA35AC167D1DB1E7C24C5B1BC803 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		2F2620FB6399EC90ED4E733E55DB6570 /* Pods-SmartTvPakistan-Watch-CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-SmartTvPakistan-Watch-CocoaLumberjack-dummy.m"; path = "../Pods-SmartTvPakistan-Watch-CocoaLumberjack/Pods-SmartTvPakistan-Watch-CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		36A7484D96C4F161FA0998C79C5E0F02 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
+		3B66B7D4A225DA5DECAD29AC5DA1A9F2 /* UIViewController+MFSideMenuAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MFSideMenuAdditions.m"; path = "MFSideMenu/UIViewController+MFSideMenuAdditions.m"; sourceTree = "<group>"; };
+		3BD7CCAA925E8F79FA5C242FAC08BC29 /* libPods-SmartTvPakistan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTvPakistan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9C656E291AD6F4304F16CC5A859848 /* Pods-SmartTvPakistan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartTvPakistan.release.xcconfig"; sourceTree = "<group>"; };
+		3DB697948350A609DFD442EF228DDF0B /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
+		3E2D8BAB2F2621CB7F33318A5C5A873E /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		3ED67E38BA39E01FD1D1E2D6AA1F97F2 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		3EFAFE702ECC3855DD8FCFCA12DBC6BC /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		3FCB54EEC0014E99E0C156D3C04E80CE /* MFSideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MFSideMenu-dummy.m"; sourceTree = "<group>"; };
+		411789A28ABA81BB8030ABAAC39C0F9B /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		435F074CCE36455F69E377A01D989D1D /* Pods-SmartTvPakistan-TV-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartTvPakistan-TV-acknowledgements.plist"; sourceTree = "<group>"; };
+		43A404AB1CDFEDE65B631E0936C9C5CD /* Pods-SmartTvPakistan-Watch-CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SmartTvPakistan-Watch-CocoaLumberjack-prefix.pch"; path = "../Pods-SmartTvPakistan-Watch-CocoaLumberjack/Pods-SmartTvPakistan-Watch-CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		4522DDB4535806269CD317C054AC2997 /* libPods-SmartTvPakistan-CocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTvPakistan-CocoaLumberjack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A9EF59C0E0372F6CC2904AEE1E4468 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		4BFDF52AE050FF268F0A6CC5C4596A4A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		52D26A09E5F2B6288886CAB9D580BD95 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
+		5356D57F8559E2E9A2D85E2BE99F18C6 /* Pods-SmartTvPakistan-Watch-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTvPakistan-Watch-AFNetworking.xcconfig"; path = "../Pods-SmartTvPakistan-Watch-AFNetworking/Pods-SmartTvPakistan-Watch-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		537082FB8CE7F3EABE6ECFE2D3315F11 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		54F47B6C53F48CBFE753AE3DBA9C3162 /* Pods-SmartTvPakistan-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartTvPakistan-frameworks.sh"; sourceTree = "<group>"; };
+		54FE876CDCA65A307E603FFD90BF89B8 /* Pods-SmartTvPakistan-TV-CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SmartTvPakistan-TV-CocoaLumberjack-prefix.pch"; path = "../Pods-SmartTvPakistan-TV-CocoaLumberjack/Pods-SmartTvPakistan-TV-CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		569CCB036E5EDDC17C481296A9D0F0D0 /* Pods-SmartTvPakistan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartTvPakistan.debug.xcconfig"; sourceTree = "<group>"; };
+		5838EA96A1ADD4FF2336C5711FCDE8B8 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		58DC7C23AD317AED4A97D2A2E83F7F76 /* Pods-SmartTvPakistan-TV-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartTvPakistan-TV-resources.sh"; sourceTree = "<group>"; };
+		599AFD12CE1B9231C1DEDBB757E60DA1 /* Pods-SmartTvPakistan-Watch-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SmartTvPakistan-Watch-AFNetworking-prefix.pch"; path = "../Pods-SmartTvPakistan-Watch-AFNetworking/Pods-SmartTvPakistan-Watch-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		5B920634CD54EA3B734C94E13059F66F /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
+		5BECA7DBFC04E0EAF696646E7AF8DDB5 /* Pods-SmartTvPakistan-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartTvPakistan-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		5CA12E1B99820595B1FAC9928A640494 /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFSideMenuContainerViewController.h; path = MFSideMenu/MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
+		5D7A45A98FF5BEF16D31E367486E76DC /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		5E16A989A284B017C73B7733D5602FA5 /* Pods-SmartTvPakistan-Watch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartTvPakistan-Watch-acknowledgements.plist"; sourceTree = "<group>"; };
+		6361BD38E602EEC7311088485701DD16 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		638048F9D58967DFA9270AE17A04A70A /* Pods-SmartTvPakistan-TV-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartTvPakistan-TV-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6478D77F5C7441D9925FBE534507A912 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		64825FE65457B98DFD8202152D8D1080 /* Pods-SmartTvPakistan-CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartTvPakistan-CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		67BDE9E5C95742ACFF00B85632603E47 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		68F9B93CE3477E090FD9710AC3ACB636 /* Pods-SmartTvPakistan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartTvPakistan-dummy.m"; sourceTree = "<group>"; };
+		6B398F436FBA076C878D5CEC4BFA0FAC /* libPods-SmartTvPakistan-TV-CocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTvPakistan-TV-CocoaLumberjack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0348DAA541D72444D4BEDA4261C407 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		6D7658C8F8D9099600A6476F4F9CC63D /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		6E8F6D804A8CAAC7114D72980FD89752 /* libMFSideMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMFSideMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD1CEBFBFE7DFE9F902AEBDC695BCEF /* Pods-SmartTvPakistan-Watch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartTvPakistan-Watch-frameworks.sh"; sourceTree = "<group>"; };
+		70BD34C178301C66DC9725FE53CBA796 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		70E5F54DC19D994E6BCE71B6CDF29F06 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		7407B58D57D1209758BA381861CC003B /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		74313054E725117CB47BDA866BFD3D1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		755B72A7EDD5C6FB5A3A947551AFFA27 /* Pods-SmartTvPakistan-TV-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTvPakistan-TV-AFNetworking.xcconfig"; path = "../Pods-SmartTvPakistan-TV-AFNetworking/Pods-SmartTvPakistan-TV-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		7710792756D1AA27D5F7D78593F05C0D /* Pods-SmartTvPakistan-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartTvPakistan-resources.sh"; sourceTree = "<group>"; };
+		772542170859563B8A8D49FCB99E6DD2 /* MFSideMenuShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFSideMenuShadow.m; path = MFSideMenu/MFSideMenuShadow.m; sourceTree = "<group>"; };
+		780A85370CAE7A1158B9C168A045AB6B /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		7880D0DACF0A4561538FAABA65E55991 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
+		78EA3C72CF9C8D4DC4F555DD4781A4FE /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		7C28DB9837150A62CC2123AEE442C052 /* Pods-SmartTvPakistan-TV-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-SmartTvPakistan-TV-AFNetworking-dummy.m"; path = "../Pods-SmartTvPakistan-TV-AFNetworking/Pods-SmartTvPakistan-TV-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		82CC1C249C504CEF9F3EE9623952D70C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		82CF251EF79F8CB73957BCB67C002FBE /* libPods-SmartTvPakistan-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTvPakistan-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		835B7992087768B1EE1D4B904CB2E86B /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		851714DC6361465635D9C3E5BEE1617A /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		86FDFD5D1B2072D4822D1287D255A70F /* Pods-SmartTvPakistan-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartTvPakistan-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D15CC0236EA03B552956D6AC40EFC27 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		8D865B0604BF80F2E9CCC9F95489D87A /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		8FB8E8341EFA07222F5C36A702F2CA30 /* libPods-SmartTvPakistan-TV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTvPakistan-TV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90827F10A9F0E06E40B79F568E56CB1C /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		928D13DDC7F8B333126457D1865BDE9D /* Pods-SmartTvPakistan-Watch-CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTvPakistan-Watch-CocoaLumberjack.xcconfig"; path = "../Pods-SmartTvPakistan-Watch-CocoaLumberjack/Pods-SmartTvPakistan-Watch-CocoaLumberjack.xcconfig"; sourceTree = "<group>"; };
+		97538C1DC7BDB480BF93E135859FD3CB /* Pods-SmartTvPakistan-Watch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartTvPakistan-Watch-resources.sh"; sourceTree = "<group>"; };
+		A0083E5E6B8737576951C7A1ACC78B38 /* MFSideMenuShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFSideMenuShadow.h; path = MFSideMenu/MFSideMenuShadow.h; sourceTree = "<group>"; };
+		A23B5D6CB03C3D1045CAB4151986BFBF /* Pods-SmartTvPakistan-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartTvPakistan-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		A45EA68C2C10A471822F6CCD3ED7C4AC /* Pods-SmartTvPakistan-TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartTvPakistan-TV.debug.xcconfig"; sourceTree = "<group>"; };
+		A4B1716E1E8504D00500CC24A4327930 /* Pods-SmartTvPakistan-Watch-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-SmartTvPakistan-Watch-AFNetworking-dummy.m"; path = "../Pods-SmartTvPakistan-Watch-AFNetworking/Pods-SmartTvPakistan-Watch-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		A529773EEA241CC52CFD51159882C463 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		A6754E4234640744C34CFCAC7387189F /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		A7C9C1A905BC6498C9926EC860B6F66A /* Pods-SmartTvPakistan-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartTvPakistan-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AEA68E85CA8DF00A108E6F24378473E1 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		AEBCB669C86A4D021FD13B413324E60C /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		AF79EC6CC84A8D0AEECBC429AAC72F33 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B01CA58BD68DA8BD81E715FA85FED722 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		B03913932CF9A3825245A05FEEADA1B5 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B0D24BCE7A454658735C1A6B6E19816E /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
+		B2A81F97FBE25BAAD9DD1AC212DEB964 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		B45141AB1412941A75C24351F77C7268 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD6DDB240A6C7E7EDD4611E328AA6A18 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		BEC9AAE4A506ECDEC803027103A85CB2 /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFSideMenuContainerViewController.m; path = MFSideMenu/MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
+		C1818B00A4B3AE7F9404D4B4C231B3B7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C315E300883098C5609AFA36E191556C /* libPods-SmartTvPakistan-Watch-CocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTvPakistan-Watch-CocoaLumberjack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C317B66D8B044752116369E10708E108 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		C3D18E453BA9DB7CECAA4D8888F4F9FF /* Pods-SmartTvPakistan-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartTvPakistan-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		C525D7CE3883D999C2D46DC0F63DC7F1 /* Pods-SmartTvPakistan-CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartTvPakistan-CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		C629F2C2F9D8CB73A3D59235CBA075D6 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		C74CA8B6C1BA260980CFBB8343E274FF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C9C73B441646357C370503A39CA4997C /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CA04ACC3B9316520DAE4D853AF1EE228 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		CB7850EA82A41635578BEEB1CC17390A /* MFSideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFSideMenu.h; path = MFSideMenu/MFSideMenu.h; sourceTree = "<group>"; };
+		D25096F77AE40A6F93C22C79929F7D02 /* Pods-SmartTvPakistan-TV-CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTvPakistan-TV-CocoaLumberjack.xcconfig"; path = "../Pods-SmartTvPakistan-TV-CocoaLumberjack/Pods-SmartTvPakistan-TV-CocoaLumberjack.xcconfig"; sourceTree = "<group>"; };
+		D8FA773717B735AF6AB2A0646A662F87 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		D971B2CC7ECC99AE80F4F9B1BB3B33F3 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		D9C182ED58228E41100E35672C3C9795 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		DB45129DF2F0AD060A113818793F537D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		DE2ABFEE15F267C81268142AEA6DB37D /* Pods-SmartTvPakistan-Watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartTvPakistan-Watch.debug.xcconfig"; sourceTree = "<group>"; };
+		DFF6D2D984E359A46B4CB06024CAE0D0 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		EF0420393FB66B0681D260A1183A0464 /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		EF21D9A82EB364FF001D67F7A62E5CB4 /* libPods-SmartTvPakistan-Watch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTvPakistan-Watch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4FFF3D6147872EEA1B107389868153 /* libPods-SmartTvPakistan-TV-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTvPakistan-TV-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41FCFE4B5CAFC7EFDEDA36EAF5A248D /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		F66C5381BED45FE1BA57499C4C41BD49 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
+		F79753DC66524FD8C735D3CDC2C718F5 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		FBFCBCEDBA01B645E0768C89F2D2518C /* Pods-SmartTvPakistan-Watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartTvPakistan-Watch.release.xcconfig"; sourceTree = "<group>"; };
+		FC658CC5A1FE9FE93828BEEB68F456EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FCB44B802C8DBA697FC0E8DAD681E731 /* Pods-SmartTvPakistan-CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartTvPakistan-CocoaLumberjack.xcconfig"; sourceTree = "<group>"; };
+		FDBB941BB7C05301D9AE615A05E142A6 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F31FF5D2E2C05E39DC046736BC9FB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E85C05FEA187EBEC8B1918F42D2807D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210655BF083E143B1BA8A30CD9BECC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC08CA20D783A998357F0B7486197939 /* CoreGraphics.framework in Frameworks */,
+				EC8171A21CBFEED5CB9E1280514A4FAA /* Foundation.framework in Frameworks */,
+				E4A30C5656BD18C16827549B495442DB /* MobileCoreServices.framework in Frameworks */,
+				787103585EBDBD9F1BC16EEA86CD2AEF /* Security.framework in Frameworks */,
+				ABA16B96370E7478C428193BB54D30E0 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4C4D4BD839E4016E1F785F6AC01DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFC949CEEC21CFE56AB8240D7352761 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7498BA105D2C2B5463AC1C5842596057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD59724011719A8791CE000893EE66D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8974D8B6E1F42CA403EFDB412E5AA897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7EB0784CE599AEFA0C23059A79ACC1 /* Foundation.framework in Frameworks */,
+				5B248C75B99F705C227A9420FF3D32A5 /* Security.framework in Frameworks */,
+				B4B4DC4A2A31E444446CE9EF76CFDE43 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE5BEB1D878BF72CFB68FE5A0D7A96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B583B28D634BDD2356A7B560C9C59F9A /* CoreGraphics.framework in Frameworks */,
+				5D83C955685471281B05062554FC7C1F /* Foundation.framework in Frameworks */,
+				F70CA9FE0A6DDEA70A78265A65757736 /* MobileCoreServices.framework in Frameworks */,
+				3F6FA729765F0B777809C216148034FD /* Security.framework in Frameworks */,
+				B8ECD78AA3665EB274160224C26C8083 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FD9BDDE10E0C84EBA3855A9911C409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA860E4B90FC07B0753FC6E1BA1D5B47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8895F36D45D0059DEDEEA5D545ADB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E293BCCB2DF9DD9FBF7E94966063826 /* Foundation.framework in Frameworks */,
+				E794AB50D70E0CF756B586FA4C48D55B /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37B36C23128AB3AA11F0ED4BC6C7C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2889992BABD149D334C2C99ABE79158E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4320E4F669BA09AFC76E949E5E0741F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC520C1D53C41C03AF4A5AD73255CA04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81C08F5CCC0A5FBFF4559E2173164C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D801E0B95C23BCC270E4EC8659D463 /* CoreGraphics.framework in Frameworks */,
+				2989492A1A182744E36FD61DF1746D94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00544A8EB246226D597EA0E67C4D5C34 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B03913932CF9A3825245A05FEEADA1B5 /* AFNetworkReachabilityManager.h */,
+				C9C73B441646357C370503A39CA4997C /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		04B4AD14EE4AC61E6317A91171B47734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66608F70C3A4925A5B9E6ACA3E15F42D /* iOS */,
+				268AB328BEAA11843EA233A82DED544F /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		055B4CC0DB8DA851AA36A02F03859EF9 /* Pods-SmartTvPakistan-TV */ = {
+			isa = PBXGroup;
+			children = (
+				638048F9D58967DFA9270AE17A04A70A /* Pods-SmartTvPakistan-TV-acknowledgements.markdown */,
+				435F074CCE36455F69E377A01D989D1D /* Pods-SmartTvPakistan-TV-acknowledgements.plist */,
+				1BB89B2CE7D66309D7AB9FA85DF13D71 /* Pods-SmartTvPakistan-TV-dummy.m */,
+				198BA4EFCC3AE33E29C781EA47F936C1 /* Pods-SmartTvPakistan-TV-frameworks.sh */,
+				58DC7C23AD317AED4A97D2A2E83F7F76 /* Pods-SmartTvPakistan-TV-resources.sh */,
+				A45EA68C2C10A471822F6CCD3ED7C4AC /* Pods-SmartTvPakistan-TV.debug.xcconfig */,
+				01EFC10E95AB6AD82C437899DD10EC4B /* Pods-SmartTvPakistan-TV.release.xcconfig */,
+			);
+			name = "Pods-SmartTvPakistan-TV";
+			path = "Target Support Files/Pods-SmartTvPakistan-TV";
+			sourceTree = "<group>";
+		};
+		0C1A0940B737B2AFA4A5A7799CB71957 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02A0A8D6C72D7506A1A28F7EEC25CA72 /* MBProgressHUD.xcconfig */,
+				D971B2CC7ECC99AE80F4F9B1BB3B33F3 /* MBProgressHUD-dummy.m */,
+				5838EA96A1ADD4FF2336C5711FCDE8B8 /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		268AB328BEAA11843EA233A82DED544F /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				74313054E725117CB47BDA866BFD3D1C /* Foundation.framework */,
+				C1818B00A4B3AE7F9404D4B4C231B3B7 /* Security.framework */,
+				1BDC13962D96F89B652BCBAE1B1A25DE /* SystemConfiguration.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		275322EEB3722BFF8A84B38F95B08ED1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AEBCB669C86A4D021FD13B413324E60C /* DDAbstractDatabaseLogger.h */,
+				02C70193C85228D01F6653F005CE702A /* DDAbstractDatabaseLogger.m */,
+				EF0420393FB66B0681D260A1183A0464 /* DDASLLogCapture.h */,
+				C317B66D8B044752116369E10708E108 /* DDASLLogCapture.m */,
+				90827F10A9F0E06E40B79F568E56CB1C /* DDASLLogger.h */,
+				B0D24BCE7A454658735C1A6B6E19816E /* DDASLLogger.m */,
+				F66C5381BED45FE1BA57499C4C41BD49 /* DDAssertMacros.h */,
+				36A7484D96C4F161FA0998C79C5E0F02 /* DDFileLogger.h */,
+				52D26A09E5F2B6288886CAB9D580BD95 /* DDFileLogger.m */,
+				B2A81F97FBE25BAAD9DD1AC212DEB964 /* DDLegacyMacros.h */,
+				261B275EEF515A62245F440058AEDAF5 /* DDLog.h */,
+				D8FA773717B735AF6AB2A0646A662F87 /* DDLog.m */,
+				3ED67E38BA39E01FD1D1E2D6AA1F97F2 /* DDLog+LOGV.h */,
+				FDBB941BB7C05301D9AE615A05E142A6 /* DDLogMacros.h */,
+				5B920634CD54EA3B734C94E13059F66F /* DDTTYLogger.h */,
+				3DB697948350A609DFD442EF228DDF0B /* DDTTYLogger.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		353867FF80E0D26622D9AEDF2035D408 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EFE2C90519D942B68781C44E879527B /* MFSideMenu.xcconfig */,
+				3FCB54EEC0014E99E0C156D3C04E80CE /* MFSideMenu-dummy.m */,
+				197DD4541F54A3F1597349CE83C637A7 /* MFSideMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MFSideMenu";
+			sourceTree = "<group>";
+		};
+		427C21642D6439DB97F63B55D0EACE5E /* Pods-SmartTvPakistan */ = {
+			isa = PBXGroup;
+			children = (
+				A7C9C1A905BC6498C9926EC860B6F66A /* Pods-SmartTvPakistan-acknowledgements.markdown */,
+				86FDFD5D1B2072D4822D1287D255A70F /* Pods-SmartTvPakistan-acknowledgements.plist */,
+				68F9B93CE3477E090FD9710AC3ACB636 /* Pods-SmartTvPakistan-dummy.m */,
+				54F47B6C53F48CBFE753AE3DBA9C3162 /* Pods-SmartTvPakistan-frameworks.sh */,
+				7710792756D1AA27D5F7D78593F05C0D /* Pods-SmartTvPakistan-resources.sh */,
+				569CCB036E5EDDC17C481296A9D0F0D0 /* Pods-SmartTvPakistan.debug.xcconfig */,
+				3D9C656E291AD6F4304F16CC5A859848 /* Pods-SmartTvPakistan.release.xcconfig */,
+			);
+			name = "Pods-SmartTvPakistan";
+			path = "Target Support Files/Pods-SmartTvPakistan";
+			sourceTree = "<group>";
+		};
+		428603F9B0A0F41834C6F621880F8F68 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				275322EEB3722BFF8A84B38F95B08ED1 /* Core */,
+				7D86D82EE3A3A6D54AB014940A970AC7 /* Default */,
+				7CB1F18506A2D9D8CE11D23FAEB0EA74 /* Extensions */,
+				D443150EEACB12E865751E8F844A89B9 /* Support Files */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		46BE74B2A48A281B2AC697B980562F9D /* Pods-SmartTvPakistan-Watch */ = {
+			isa = PBXGroup;
+			children = (
+				10A50E1DA4A3316D51DE05566E7E27A1 /* Pods-SmartTvPakistan-Watch-acknowledgements.markdown */,
+				5E16A989A284B017C73B7733D5602FA5 /* Pods-SmartTvPakistan-Watch-acknowledgements.plist */,
+				20382CA778993B0525722B9ED2F6F056 /* Pods-SmartTvPakistan-Watch-dummy.m */,
+				6FD1CEBFBFE7DFE9F902AEBDC695BCEF /* Pods-SmartTvPakistan-Watch-frameworks.sh */,
+				97538C1DC7BDB480BF93E135859FD3CB /* Pods-SmartTvPakistan-Watch-resources.sh */,
+				DE2ABFEE15F267C81268142AEA6DB37D /* Pods-SmartTvPakistan-Watch.debug.xcconfig */,
+				FBFCBCEDBA01B645E0768C89F2D2518C /* Pods-SmartTvPakistan-Watch.release.xcconfig */,
+			);
+			name = "Pods-SmartTvPakistan-Watch";
+			path = "Target Support Files/Pods-SmartTvPakistan-Watch";
+			sourceTree = "<group>";
+		};
+		48DEEF00416054DB8B5EA8E6A61DF5A5 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AEA68E85CA8DF00A108E6F24378473E1 /* AFAutoPurgingImageCache.h */,
+				A529773EEA241CC52CFD51159882C463 /* AFAutoPurgingImageCache.m */,
+				8D865B0604BF80F2E9CCC9F95489D87A /* AFImageDownloader.h */,
+				0E522478A44BC82F42C8656EF1BF0E6B /* AFImageDownloader.m */,
+				11D2B205C41160645FD4A37B0E494368 /* AFNetworkActivityIndicatorManager.h */,
+				851714DC6361465635D9C3E5BEE1617A /* AFNetworkActivityIndicatorManager.m */,
+				1CF48A28FC28DF6ABCFCD8FDC7533EC6 /* UIActivityIndicatorView+AFNetworking.h */,
+				F41FCFE4B5CAFC7EFDEDA36EAF5A248D /* UIActivityIndicatorView+AFNetworking.m */,
+				A6754E4234640744C34CFCAC7387189F /* UIButton+AFNetworking.h */,
+				1C6E6EA505D29DB655C430D3E82A78EA /* UIButton+AFNetworking.m */,
+				537082FB8CE7F3EABE6ECFE2D3315F11 /* UIImage+AFNetworking.h */,
+				835B7992087768B1EE1D4B904CB2E86B /* UIImageView+AFNetworking.h */,
+				6D7658C8F8D9099600A6476F4F9CC63D /* UIImageView+AFNetworking.m */,
+				DB45129DF2F0AD060A113818793F537D /* UIKit+AFNetworking.h */,
+				411789A28ABA81BB8030ABAAC39C0F9B /* UIProgressView+AFNetworking.h */,
+				D9C182ED58228E41100E35672C3C9795 /* UIProgressView+AFNetworking.m */,
+				C629F2C2F9D8CB73A3D59235CBA075D6 /* UIRefreshControl+AFNetworking.h */,
+				F79753DC66524FD8C735D3CDC2C718F5 /* UIRefreshControl+AFNetworking.m */,
+				050568AB22AA8FDB248F851E704E0D82 /* UIWebView+AFNetworking.h */,
+				3EFAFE702ECC3855DD8FCFCA12DBC6BC /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		50F162631869A1CC5F4631CA8DD77452 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3D18E453BA9DB7CECAA4D8888F4F9FF /* Pods-SmartTvPakistan-AFNetworking.xcconfig */,
+				5BECA7DBFC04E0EAF696646E7AF8DDB5 /* Pods-SmartTvPakistan-AFNetworking-dummy.m */,
+				A23B5D6CB03C3D1045CAB4151986BFBF /* Pods-SmartTvPakistan-AFNetworking-prefix.pch */,
+				755B72A7EDD5C6FB5A3A947551AFFA27 /* Pods-SmartTvPakistan-TV-AFNetworking.xcconfig */,
+				7C28DB9837150A62CC2123AEE442C052 /* Pods-SmartTvPakistan-TV-AFNetworking-dummy.m */,
+				05002791F134C0DB2808D39A66EC75AA /* Pods-SmartTvPakistan-TV-AFNetworking-prefix.pch */,
+				5356D57F8559E2E9A2D85E2BE99F18C6 /* Pods-SmartTvPakistan-Watch-AFNetworking.xcconfig */,
+				A4B1716E1E8504D00500CC24A4327930 /* Pods-SmartTvPakistan-Watch-AFNetworking-dummy.m */,
+				599AFD12CE1B9231C1DEDBB757E60DA1 /* Pods-SmartTvPakistan-Watch-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SmartTvPakistan-AFNetworking";
+			sourceTree = "<group>";
+		};
+		545DC98014206D24E56D6B95082D14AA /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6478D77F5C7441D9925FBE534507A912 /* MBProgressHUD.h */,
+				2714FA35AC167D1DB1E7C24C5B1BC803 /* MBProgressHUD.m */,
+				0C1A0940B737B2AFA4A5A7799CB71957 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		66608F70C3A4925A5B9E6ACA3E15F42D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				70BD34C178301C66DC9725FE53CBA796 /* CoreGraphics.framework */,
+				FC658CC5A1FE9FE93828BEEB68F456EF /* Foundation.framework */,
+				4BFDF52AE050FF268F0A6CC5C4596A4A /* MobileCoreServices.framework */,
+				C74CA8B6C1BA260980CFBB8343E274FF /* QuartzCore.framework */,
+				B01CA58BD68DA8BD81E715FA85FED722 /* Security.framework */,
+				45A9EF59C0E0372F6CC2904AEE1E4468 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		694A42233AD5CC5DA39E8A527344B096 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				82CC1C249C504CEF9F3EE9623952D70C /* AFSecurityPolicy.h */,
+				8D15CC0236EA03B552956D6AC40EFC27 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		75C566AC9CF6FD466A1AF8FF39A8C3CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B45141AB1412941A75C24351F77C7268 /* libMBProgressHUD.a */,
+				6E8F6D804A8CAAC7114D72980FD89752 /* libMFSideMenu.a */,
+				3BD7CCAA925E8F79FA5C242FAC08BC29 /* libPods-SmartTvPakistan.a */,
+				82CF251EF79F8CB73957BCB67C002FBE /* libPods-SmartTvPakistan-AFNetworking.a */,
+				4522DDB4535806269CD317C054AC2997 /* libPods-SmartTvPakistan-CocoaLumberjack.a */,
+				8FB8E8341EFA07222F5C36A702F2CA30 /* libPods-SmartTvPakistan-TV.a */,
+				EF4FFF3D6147872EEA1B107389868153 /* libPods-SmartTvPakistan-TV-AFNetworking.a */,
+				6B398F436FBA076C878D5CEC4BFA0FAC /* libPods-SmartTvPakistan-TV-CocoaLumberjack.a */,
+				EF21D9A82EB364FF001D67F7A62E5CB4 /* libPods-SmartTvPakistan-Watch.a */,
+				1BD2279161F90A79951CB6F6297B3770 /* libPods-SmartTvPakistan-Watch-AFNetworking.a */,
+				C315E300883098C5609AFA36E191556C /* libPods-SmartTvPakistan-Watch-CocoaLumberjack.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75F0818B9EB55B28753FE44E3FEC53CE /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				6D0348DAA541D72444D4BEDA4261C407 /* AFURLRequestSerialization.h */,
+				BD6DDB240A6C7E7EDD4611E328AA6A18 /* AFURLRequestSerialization.m */,
+				78EA3C72CF9C8D4DC4F555DD4781A4FE /* AFURLResponseSerialization.h */,
+				70E5F54DC19D994E6BCE71B6CDF29F06 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		7CB1F18506A2D9D8CE11D23FAEB0EA74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7407B58D57D1209758BA381861CC003B /* DDContextFilterLogFormatter.h */,
+				6361BD38E602EEC7311088485701DD16 /* DDContextFilterLogFormatter.m */,
+				3E2D8BAB2F2621CB7F33318A5C5A873E /* DDDispatchQueueLogFormatter.h */,
+				5D7A45A98FF5BEF16D31E367486E76DC /* DDDispatchQueueLogFormatter.m */,
+				7880D0DACF0A4561538FAABA65E55991 /* DDMultiFormatter.h */,
+				780A85370CAE7A1158B9C168A045AB6B /* DDMultiFormatter.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		7D86D82EE3A3A6D54AB014940A970AC7 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				1B227A93E537EC14E3A8D20B21671EF5 /* CocoaLumberjack.h */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				04B4AD14EE4AC61E6317A91171B47734 /* Frameworks */,
+				FD9691CB27FC635F312993B49F341858 /* Pods */,
+				75C566AC9CF6FD466A1AF8FF39A8C3CF /* Products */,
+				AFA54B54A5D4E55C964DA77577E4C0E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		944E16567D7DA7145C15316F276EB5AD /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CB7850EA82A41635578BEEB1CC17390A /* MFSideMenu.h */,
+				5CA12E1B99820595B1FAC9928A640494 /* MFSideMenuContainerViewController.h */,
+				BEC9AAE4A506ECDEC803027103A85CB2 /* MFSideMenuContainerViewController.m */,
+				A0083E5E6B8737576951C7A1ACC78B38 /* MFSideMenuShadow.h */,
+				772542170859563B8A8D49FCB99E6DD2 /* MFSideMenuShadow.m */,
+				11EF4EC2DE88ACB27DBC51B3CDBAD14E /* UIViewController+MFSideMenuAdditions.h */,
+				3B66B7D4A225DA5DECAD29AC5DA1A9F2 /* UIViewController+MFSideMenuAdditions.m */,
+				353867FF80E0D26622D9AEDF2035D408 /* Support Files */,
+			);
+			path = MFSideMenu;
+			sourceTree = "<group>";
+		};
+		AFA54B54A5D4E55C964DA77577E4C0E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				427C21642D6439DB97F63B55D0EACE5E /* Pods-SmartTvPakistan */,
+				055B4CC0DB8DA851AA36A02F03859EF9 /* Pods-SmartTvPakistan-TV */,
+				46BE74B2A48A281B2AC697B980562F9D /* Pods-SmartTvPakistan-Watch */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C9848DECDB6BEC8068DA82FB5A7075A2 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				AF79EC6CC84A8D0AEECBC429AAC72F33 /* AFHTTPSessionManager.h */,
+				0105C608139E82B70EB7CC24B4E808A5 /* AFHTTPSessionManager.m */,
+				67BDE9E5C95742ACFF00B85632603E47 /* AFURLSessionManager.h */,
+				DFF6D2D984E359A46B4CB06024CAE0D0 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		D443150EEACB12E865751E8F844A89B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCB44B802C8DBA697FC0E8DAD681E731 /* Pods-SmartTvPakistan-CocoaLumberjack.xcconfig */,
+				C525D7CE3883D999C2D46DC0F63DC7F1 /* Pods-SmartTvPakistan-CocoaLumberjack-dummy.m */,
+				64825FE65457B98DFD8202152D8D1080 /* Pods-SmartTvPakistan-CocoaLumberjack-prefix.pch */,
+				D25096F77AE40A6F93C22C79929F7D02 /* Pods-SmartTvPakistan-TV-CocoaLumberjack.xcconfig */,
+				02CA3544DD2D1456002F14339489270D /* Pods-SmartTvPakistan-TV-CocoaLumberjack-dummy.m */,
+				54FE876CDCA65A307E603FFD90BF89B8 /* Pods-SmartTvPakistan-TV-CocoaLumberjack-prefix.pch */,
+				928D13DDC7F8B333126457D1865BDE9D /* Pods-SmartTvPakistan-Watch-CocoaLumberjack.xcconfig */,
+				2F2620FB6399EC90ED4E733E55DB6570 /* Pods-SmartTvPakistan-Watch-CocoaLumberjack-dummy.m */,
+				43A404AB1CDFEDE65B631E0936C9C5CD /* Pods-SmartTvPakistan-Watch-CocoaLumberjack-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SmartTvPakistan-CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		EE4B99638287D0C3B9650DDE0BC73ED8 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CA04ACC3B9316520DAE4D853AF1EE228 /* AFNetworking.h */,
+				C9848DECDB6BEC8068DA82FB5A7075A2 /* NSURLSession */,
+				00544A8EB246226D597EA0E67C4D5C34 /* Reachability */,
+				694A42233AD5CC5DA39E8A527344B096 /* Security */,
+				75F0818B9EB55B28753FE44E3FEC53CE /* Serialization */,
+				50F162631869A1CC5F4631CA8DD77452 /* Support Files */,
+				48DEEF00416054DB8B5EA8E6A61DF5A5 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		FD9691CB27FC635F312993B49F341858 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE4B99638287D0C3B9650DDE0BC73ED8 /* AFNetworking */,
+				428603F9B0A0F41834C6F621880F8F68 /* CocoaLumberjack */,
+				545DC98014206D24E56D6B95082D14AA /* MBProgressHUD */,
+				944E16567D7DA7145C15316F276EB5AD /* MFSideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C95B9659FD100C1EA00A4A31928D8C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1CC6184D08DB2C2E4F35871FCC9CCD /* MFSideMenu.h in Headers */,
+				774C6BDF67A0AFCC8F53C4AD67B3D5F3 /* MFSideMenuContainerViewController.h in Headers */,
+				BB109FC0CE621A01CB6776D3D580CFC4 /* MFSideMenuShadow.h in Headers */,
+				12F2A2E590F6FD5FD12B85709812AB8E /* UIViewController+MFSideMenuAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0DBEEE5FD41FD3E28D6785DEA1C5B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FEDA6F32624FC67C91AECD31F5BFA1 /* AFAutoPurgingImageCache.h in Headers */,
+				27E4DCCE6519BFF353BB13A2ACB4E32D /* AFHTTPSessionManager.h in Headers */,
+				659DA7CF20F16AC636988D8100CE7FBA /* AFImageDownloader.h in Headers */,
+				EABE8EEE1EC9423F7EC4F210CE44D065 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				2F505DE81757A2AEBF6550F06C422966 /* AFNetworking.h in Headers */,
+				BFE583CB9F39C6B3807E1F37FC0BE1EC /* AFNetworkReachabilityManager.h in Headers */,
+				284EE9D19F75DF7CAE5299D78F2537AF /* AFSecurityPolicy.h in Headers */,
+				9B227F4BFF751B36DC4FE35683F9479F /* AFURLRequestSerialization.h in Headers */,
+				9540BCD8C399E4F58AEB116210041729 /* AFURLResponseSerialization.h in Headers */,
+				EC1036496DAB2C336B0C60F8BCB1D7C4 /* AFURLSessionManager.h in Headers */,
+				BFB9034BC9969741C87D4FF07211D566 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				1A8D9C956B8C8D2C78CC23A696228547 /* UIButton+AFNetworking.h in Headers */,
+				2C709EC73A5B7C70C1B09E656AEF75BD /* UIImage+AFNetworking.h in Headers */,
+				C032C45F37FCD10418D69975D5D5CD40 /* UIImageView+AFNetworking.h in Headers */,
+				24CC1D272E2C93D965BA931DE98B28D7 /* UIKit+AFNetworking.h in Headers */,
+				7F06F84E304F7BF9F3AC0E7BACC5783A /* UIProgressView+AFNetworking.h in Headers */,
+				9B05C6686E9376B01A051450876BFF56 /* UIRefreshControl+AFNetworking.h in Headers */,
+				33D79F43B875E171A1F01F30D7912BA3 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D777F6BFA485E561C250BBD3A62B4EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A324F30C083B259F25917F6A2B4E2412 /* CocoaLumberjack.h in Headers */,
+				435C57F722209973BF76506DAC1F5A49 /* DDAbstractDatabaseLogger.h in Headers */,
+				CA86438F69B9AD978D1C2581971DFADE /* DDASLLogCapture.h in Headers */,
+				75F19EC7299E243F11BDA9BBA4860A34 /* DDASLLogger.h in Headers */,
+				23D9DBCF537D4E08505B34AC6E2D2B07 /* DDAssertMacros.h in Headers */,
+				3C556E8C99C890A7C5B52B92BB684163 /* DDContextFilterLogFormatter.h in Headers */,
+				D4DE2A3A7C9B65AE46F42F7D0C41B036 /* DDDispatchQueueLogFormatter.h in Headers */,
+				135D19029A1F23D40B48B3B7333B2B02 /* DDFileLogger.h in Headers */,
+				EB2103816A9695A6A837998C4B5D711E /* DDLegacyMacros.h in Headers */,
+				C5246D2F6DA46E6E83E0F7C38B2FDB52 /* DDLog+LOGV.h in Headers */,
+				CF34C73E282BAB59B7522354847BB99E /* DDLog.h in Headers */,
+				C42073F8C3905BB38AEE4919EFBDA8AD /* DDLogMacros.h in Headers */,
+				A02ECB46D3A37E4FAB09B89721FAF9C2 /* DDMultiFormatter.h in Headers */,
+				952E15955B4637F121496DE306522EEC /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4182EE13AE8932F467C8F283453642F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F272123BB857A9323B9E47289CBEF6 /* CocoaLumberjack.h in Headers */,
+				E8BDD34EB3478B5B286F4D3EAB776A87 /* DDAbstractDatabaseLogger.h in Headers */,
+				0344D571D674AB62EB7DA6C0E2E4B5B3 /* DDASLLogCapture.h in Headers */,
+				F956E0899E92C5E0E25CE6E09543BDFB /* DDASLLogger.h in Headers */,
+				7F207CB791B41267B09FB3239EF6456A /* DDAssertMacros.h in Headers */,
+				96D12088E31CFD6678158434622F86DD /* DDContextFilterLogFormatter.h in Headers */,
+				57C72E2374BE18D41AFF8DDDCE28DC76 /* DDDispatchQueueLogFormatter.h in Headers */,
+				A3E0162667CCAD007FF10EF4419F5637 /* DDFileLogger.h in Headers */,
+				7CD4D4F5A97A1FC1E69FD1F6E3A43978 /* DDLegacyMacros.h in Headers */,
+				AF8C15BCE75117370E259DB61E47DCB8 /* DDLog+LOGV.h in Headers */,
+				70E75F83063C254522595AEAAFF06CE2 /* DDLog.h in Headers */,
+				71D4E7FCCCE052DCBD9636BCD76AA68B /* DDLogMacros.h in Headers */,
+				AB7EFB4AFA408E6F74774F5C88ED6F0F /* DDMultiFormatter.h in Headers */,
+				7BC2ECAB977FD5C6852C359F19B58964 /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4741AC38E10A0658426F9DB7D8AF5015 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0E54ACE89D13EC0105920787B62900 /* AFAutoPurgingImageCache.h in Headers */,
+				19B3DC28B409E60F7E1D4F3D3F980504 /* AFHTTPSessionManager.h in Headers */,
+				253E5D0295C18D99DDAA2FB12F37AEB3 /* AFImageDownloader.h in Headers */,
+				6409750B56FC1655C3ECB702D2DE4400 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				460A39599CDEA913FD70027479B121AA /* AFNetworking.h in Headers */,
+				077ABD9EF9C1579DD146CC3B626B45E5 /* AFNetworkReachabilityManager.h in Headers */,
+				B0FFFC799CE12E22B11BD0764B772460 /* AFSecurityPolicy.h in Headers */,
+				6B942028FDFF6A0D7D60E3A8B200999C /* AFURLRequestSerialization.h in Headers */,
+				B94EA911F37B73345FD1D19C6197B298 /* AFURLResponseSerialization.h in Headers */,
+				C614ED55AA53302376572632D519CD37 /* AFURLSessionManager.h in Headers */,
+				4FF7322FA731B0003635869A3610DBC6 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				4DB577C1A0F4730508E8B8D72AAAF7E9 /* UIButton+AFNetworking.h in Headers */,
+				CC837E547E1BAC4084E69F48682F54B0 /* UIImage+AFNetworking.h in Headers */,
+				9B25BBB5F62607F92A2BAC6C8B4FD854 /* UIImageView+AFNetworking.h in Headers */,
+				DB64DBCA9742CA0FDABB016BAF320D35 /* UIKit+AFNetworking.h in Headers */,
+				91740042270E206E7904B8A0829C2DFF /* UIProgressView+AFNetworking.h in Headers */,
+				31E6220CF98439F758B7002C5339C44D /* UIRefreshControl+AFNetworking.h in Headers */,
+				9ACE1E869B518948D9B747275944E3C3 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830C3679440AA848C1787DC0B330228D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CDC6B5BF389A30138B1E8B570B0519 /* AFAutoPurgingImageCache.h in Headers */,
+				34B0348F4BD0F2D6F56ED17CEF3F9816 /* AFHTTPSessionManager.h in Headers */,
+				34C5C0A110F606448DF2B2A8A885564E /* AFImageDownloader.h in Headers */,
+				A82B0B1376DACB50F07319BFA2DF9611 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				5E77829528301CFAD7A3BBA44039189F /* AFNetworking.h in Headers */,
+				182D87A02E4762C2BE597240C6B228F6 /* AFNetworkReachabilityManager.h in Headers */,
+				98DA725164776BD35E4D06BE121CE437 /* AFSecurityPolicy.h in Headers */,
+				70E5C8AB4D2B6E888A531C096C21CA8E /* AFURLRequestSerialization.h in Headers */,
+				58183737A099A7B14B15CAA4AD0A941F /* AFURLResponseSerialization.h in Headers */,
+				0FC58424204FF1EC87D2C204E68B814E /* AFURLSessionManager.h in Headers */,
+				2D62E5B43A42B452723097984EEE289C /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				6CA27E1786E1B3A8854CFCB7B898241E /* UIButton+AFNetworking.h in Headers */,
+				D4E6EDEE9DA9D3FF7DB7E6E21CC7D38A /* UIImage+AFNetworking.h in Headers */,
+				BF13822C0461A196A7B0406997A026FD /* UIImageView+AFNetworking.h in Headers */,
+				7CE38EE1056AA8572C5C406F2B0F6D64 /* UIKit+AFNetworking.h in Headers */,
+				67903F5D44487CD0A2D6CF6A74596E08 /* UIProgressView+AFNetworking.h in Headers */,
+				998B36BBFBDCB6D9B434C0BD91C8998B /* UIRefreshControl+AFNetworking.h in Headers */,
+				3DDF79F33DB79518BB1C7D32A622B15E /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1C003613925663F17E023C73AF519C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB4F27B76513AE918BA5AE0868E87C8 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3640E28D1A94D467C184DC1790067AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFFD62CDF120000E0B6AEA56AC897B6 /* CocoaLumberjack.h in Headers */,
+				0494C13EDA2F17FF4B53BE22A2297B7D /* DDAbstractDatabaseLogger.h in Headers */,
+				E9DAED9C03AFC83A5799C4162E2F62BF /* DDASLLogCapture.h in Headers */,
+				65E4B07418FDA23811E5D43EAEC07997 /* DDASLLogger.h in Headers */,
+				E664671862C5279C223A2F0946AC02C9 /* DDAssertMacros.h in Headers */,
+				A6DD9BF378242A85305D4C7CCC9E0941 /* DDContextFilterLogFormatter.h in Headers */,
+				B75179298F3033796C196B7FB2CFE3D1 /* DDDispatchQueueLogFormatter.h in Headers */,
+				C264E9A88AE28ABE36C2580D890DA8EE /* DDFileLogger.h in Headers */,
+				C30827CA13B0DFACAF31D588B7E4EC2F /* DDLegacyMacros.h in Headers */,
+				79D9EB1C55EA727DA31E9AA93B8834C3 /* DDLog+LOGV.h in Headers */,
+				35DB3BFBDE23CA1A20852507DF268A99 /* DDLog.h in Headers */,
+				74C4D96F2F2CBE5F0C4E84E407BD5648 /* DDLogMacros.h in Headers */,
+				0988A9EA97C84F5A47CAA33E5764EE2D /* DDMultiFormatter.h in Headers */,
+				65AAC967D520EE168C4398C904294F1D /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FB3864CF47A4C4BD1587783785938C3 /* MFSideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD130CB7D44EC79A01B25A15A28C1FA /* Build configuration list for PBXNativeTarget "MFSideMenu" */;
+			buildPhases = (
+				3A330A3E5A15CC1B583C019E2F155883 /* Sources */,
+				9B8895F36D45D0059DEDEEA5D545ADB6 /* Frameworks */,
+				0C95B9659FD100C1EA00A4A31928D8C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFSideMenu;
+			productName = MFSideMenu;
+			productReference = 6E8F6D804A8CAAC7114D72980FD89752 /* libMFSideMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5AABBD71D3E610D5750161B53D6D46FB /* Pods-SmartTvPakistan-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F5C76216E026D785291F440EFDA4E9 /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-AFNetworking" */;
+			buildPhases = (
+				CE94104A7B136F52919DA718FE162FAD /* Sources */,
+				8AE5BEB1D878BF72CFB68FE5A0D7A96F /* Frameworks */,
+				1C0DBEEE5FD41FD3E28D6785DEA1C5B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartTvPakistan-AFNetworking";
+			productName = "Pods-SmartTvPakistan-AFNetworking";
+			productReference = 82CF251EF79F8CB73957BCB67C002FBE /* libPods-SmartTvPakistan-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8021D6D400E4374F094D0624C0F79C66 /* Pods-SmartTvPakistan-TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18194C7D94D84EB0ACEEC4850406FC88 /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-TV" */;
+			buildPhases = (
+				1C77EFD0C2D064C8C3A3FB2F6BE0322F /* Sources */,
+				E37B36C23128AB3AA11F0ED4BC6C7C86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A85D2D56BBEA36500F5382FA340CA8 /* PBXTargetDependency */,
+				B85A53E966173FF213AC912E4F61E1CB /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartTvPakistan-TV";
+			productName = "Pods-SmartTvPakistan-TV";
+			productReference = 8FB8E8341EFA07222F5C36A702F2CA30 /* libPods-SmartTvPakistan-TV.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8CF7D67B43887F76400F00B7AF3417E3 /* Pods-SmartTvPakistan-CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9169909509B4DDAAAE5420E9D320E190 /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-CocoaLumberjack" */;
+			buildPhases = (
+				FA2DF97CBB12B317DDE46FD62B839DDA /* Sources */,
+				0F31FF5D2E2C05E39DC046736BC9FB5E /* Frameworks */,
+				1D777F6BFA485E561C250BBD3A62B4EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartTvPakistan-CocoaLumberjack";
+			productName = "Pods-SmartTvPakistan-CocoaLumberjack";
+			productReference = 4522DDB4535806269CD317C054AC2997 /* libPods-SmartTvPakistan-CocoaLumberjack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9ED6C259AA74EBD230EF5879D87428C /* Pods-SmartTvPakistan-TV-CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A3D20B7439C998C970F3AFEF81A72F /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-TV-CocoaLumberjack" */;
+			buildPhases = (
+				DD3550151EA11E36542F3536B57C1984 /* Sources */,
+				E4320E4F669BA09AFC76E949E5E0741F /* Frameworks */,
+				4182EE13AE8932F467C8F283453642F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartTvPakistan-TV-CocoaLumberjack";
+			productName = "Pods-SmartTvPakistan-TV-CocoaLumberjack";
+			productReference = 6B398F436FBA076C878D5CEC4BFA0FAC /* libPods-SmartTvPakistan-TV-CocoaLumberjack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ADFA4D880F7C5BC37B71B116E742BE09 /* Pods-SmartTvPakistan-Watch-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C932D4B4768815227D74FECD93B6DBF /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-Watch-AFNetworking" */;
+			buildPhases = (
+				7EC36B7603B7D6EDA59A670427D40AE6 /* Sources */,
+				210655BF083E143B1BA8A30CD9BECC5C /* Frameworks */,
+				830C3679440AA848C1787DC0B330228D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartTvPakistan-Watch-AFNetworking";
+			productName = "Pods-SmartTvPakistan-Watch-AFNetworking";
+			productReference = 1BD2279161F90A79951CB6F6297B3770 /* libPods-SmartTvPakistan-Watch-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C07ABF31E62BEA444431C95087605B99 /* Pods-SmartTvPakistan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB3B705A3C3295E418675343383F16F /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan" */;
+			buildPhases = (
+				3D3EE3910C623AEF7E3D1AD0DE6FD40C /* Sources */,
+				2E4C4D4BD839E4016E1F785F6AC01DF5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E829EBD4C7F04B734FF89664458D8279 /* PBXTargetDependency */,
+				3DC72FCDA555DE1E0E669825182C7FAF /* PBXTargetDependency */,
+				62FB6C4004E75C2DB3E366C4E5199980 /* PBXTargetDependency */,
+				098A3B929AF8C2F26AA618EBEE1607EB /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartTvPakistan";
+			productName = "Pods-SmartTvPakistan";
+			productReference = 3BD7CCAA925E8F79FA5C242FAC08BC29 /* libPods-SmartTvPakistan.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C8156656B53564EEEEAEA98198B5E2C2 /* Pods-SmartTvPakistan-Watch-CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC60EC3EB4D0F6B700C367295077EC2C /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-Watch-CocoaLumberjack" */;
+			buildPhases = (
+				2E5E534ED1B1FD2EFEB1457A2BC6C438 /* Sources */,
+				7498BA105D2C2B5463AC1C5842596057 /* Frameworks */,
+				F3640E28D1A94D467C184DC1790067AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartTvPakistan-Watch-CocoaLumberjack";
+			productName = "Pods-SmartTvPakistan-Watch-CocoaLumberjack";
+			productReference = C315E300883098C5609AFA36E191556C /* libPods-SmartTvPakistan-Watch-CocoaLumberjack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F87A3717E0B03B8DBD7DEDF91314290D /* Pods-SmartTvPakistan-TV-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13616B1436EC508602CC95A85D62AF06 /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-TV-AFNetworking" */;
+			buildPhases = (
+				19CADE247D60C7AC9C34C48B86747145 /* Sources */,
+				8974D8B6E1F42CA403EFDB412E5AA897 /* Frameworks */,
+				4741AC38E10A0658426F9DB7D8AF5015 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartTvPakistan-TV-AFNetworking";
+			productName = "Pods-SmartTvPakistan-TV-AFNetworking";
+			productReference = EF4FFF3D6147872EEA1B107389868153 /* libPods-SmartTvPakistan-TV-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F8D823263411EA1C0C5EC0E773566E88 /* Pods-SmartTvPakistan-Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE089B00214BF0C3240C0DDD4ADFD4B /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-Watch" */;
+			buildPhases = (
+				79366E8A0F8157EDEFBCBF31878D7588 /* Sources */,
+				97FD9BDDE10E0C84EBA3855A9911C409 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AE1657CEB4C4C966E8AD2963AF6036 /* PBXTargetDependency */,
+				969A99605289923B9FD1AC17938E9638 /* PBXTargetDependency */,
+				26BEBCB28E76A77C871521E28C99DFAC /* PBXTargetDependency */,
+				A45738F9DB9CDFED3B148E2A5B25B649 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartTvPakistan-Watch";
+			productName = "Pods-SmartTvPakistan-Watch";
+			productReference = EF21D9A82EB364FF001D67F7A62E5CB4 /* libPods-SmartTvPakistan-Watch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F5671C4613023EE94A2E62DA06031D /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				098439AB598DDF1AF51146A2E3E2E562 /* Sources */,
+				E81C08F5CCC0A5FBFF4559E2173164C7 /* Frameworks */,
+				EF1C003613925663F17E023C73AF519C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = B45141AB1412941A75C24351F77C7268 /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 75C566AC9CF6FD466A1AF8FF39A8C3CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */,
+				0FB3864CF47A4C4BD1587783785938C3 /* MFSideMenu */,
+				C07ABF31E62BEA444431C95087605B99 /* Pods-SmartTvPakistan */,
+				5AABBD71D3E610D5750161B53D6D46FB /* Pods-SmartTvPakistan-AFNetworking */,
+				8CF7D67B43887F76400F00B7AF3417E3 /* Pods-SmartTvPakistan-CocoaLumberjack */,
+				8021D6D400E4374F094D0624C0F79C66 /* Pods-SmartTvPakistan-TV */,
+				F87A3717E0B03B8DBD7DEDF91314290D /* Pods-SmartTvPakistan-TV-AFNetworking */,
+				A9ED6C259AA74EBD230EF5879D87428C /* Pods-SmartTvPakistan-TV-CocoaLumberjack */,
+				F8D823263411EA1C0C5EC0E773566E88 /* Pods-SmartTvPakistan-Watch */,
+				ADFA4D880F7C5BC37B71B116E742BE09 /* Pods-SmartTvPakistan-Watch-AFNetworking */,
+				C8156656B53564EEEEAEA98198B5E2C2 /* Pods-SmartTvPakistan-Watch-CocoaLumberjack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		098439AB598DDF1AF51146A2E3E2E562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC214077677D4F02E03C6C85F774E028 /* MBProgressHUD-dummy.m in Sources */,
+				82FC12F67E83874B93592218E9FB4CA0 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CADE247D60C7AC9C34C48B86747145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E1DE2E4177B1AA2F3B9E80780C1899 /* AFAutoPurgingImageCache.m in Sources */,
+				D8198E2868BF49A0E2B30560ACBDCE1A /* AFHTTPSessionManager.m in Sources */,
+				65780609DBFAC376A3D762E86C39F5D2 /* AFImageDownloader.m in Sources */,
+				0392CBAD9326CB0E619CBCD4BC4E8A23 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				E9D016EB1FA63D52D64098F1B96A979A /* AFNetworkReachabilityManager.m in Sources */,
+				ADC3298AB7FC6B7597A4857FFFE79A04 /* AFSecurityPolicy.m in Sources */,
+				E24539707175E53E35BA9FF6CE79E914 /* AFURLRequestSerialization.m in Sources */,
+				5150CC193FD544D94A6D53265E86EDE2 /* AFURLResponseSerialization.m in Sources */,
+				707F91EAE799703F0D112DAEF0DD2153 /* AFURLSessionManager.m in Sources */,
+				61167F0A0A6D8548FD5FAF062A090FD2 /* Pods-SmartTvPakistan-TV-AFNetworking-dummy.m in Sources */,
+				B1E8A9643A93C2DC5D7654517A4A706C /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				BB881050EDB62FD32DB1D108FEB3D1E3 /* UIButton+AFNetworking.m in Sources */,
+				CFBB7C66FEC2D401027F0891070AC808 /* UIImageView+AFNetworking.m in Sources */,
+				D755CA5EE6965C7615634A5B8F6E4035 /* UIProgressView+AFNetworking.m in Sources */,
+				22A1C1A853CF508AC7E1D88D4FBB8F52 /* UIRefreshControl+AFNetworking.m in Sources */,
+				E0C44675198F713D9F931C7D1646AAF6 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C77EFD0C2D064C8C3A3FB2F6BE0322F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BFDC414684D6F82FFD96EC7DD4BF53 /* Pods-SmartTvPakistan-TV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E5E534ED1B1FD2EFEB1457A2BC6C438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F814C94465E91B8BA8C8AA00CCBB39 /* DDAbstractDatabaseLogger.m in Sources */,
+				AA715CAD63299CCACFF00B35F4B0C641 /* DDASLLogCapture.m in Sources */,
+				F67E0FB28F2D73F16881382CF4B105F8 /* DDASLLogger.m in Sources */,
+				B1A23C896EABE55DA0E41F1B0700B226 /* DDContextFilterLogFormatter.m in Sources */,
+				080C516449759AC0ECA147D33E67B0A5 /* DDDispatchQueueLogFormatter.m in Sources */,
+				AA64D5931F3CF5CF313A21ACBB0B1D40 /* DDFileLogger.m in Sources */,
+				67DE09709CBB32522068FE666B9015F1 /* DDLog.m in Sources */,
+				41041566E21A30D7893543456463D1F0 /* DDMultiFormatter.m in Sources */,
+				0AECCDCE14EB47B19D82413EB73412AA /* DDTTYLogger.m in Sources */,
+				861737E82E328AC2152E7E357EE77FB4 /* Pods-SmartTvPakistan-Watch-CocoaLumberjack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A330A3E5A15CC1B583C019E2F155883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E26658217EC420DF1528F6613A73FA0 /* MFSideMenu-dummy.m in Sources */,
+				89B1274BAACAA8AE7882C8F9741D317E /* MFSideMenuContainerViewController.m in Sources */,
+				D83E3994D039F12C1D67BEE9D39FA004 /* MFSideMenuShadow.m in Sources */,
+				0C7941D8F32D2935321075211BB5F349 /* UIViewController+MFSideMenuAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3EE3910C623AEF7E3D1AD0DE6FD40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CE34D27788FC5E2175C3746F46AC67 /* Pods-SmartTvPakistan-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79366E8A0F8157EDEFBCBF31878D7588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED242552CDC31904EDFF9CC548E52CC /* Pods-SmartTvPakistan-Watch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC36B7603B7D6EDA59A670427D40AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C15C8FF0B84B03838F02999133B3C8 /* AFAutoPurgingImageCache.m in Sources */,
+				CE970955EA5988AA48D0F494B84BC597 /* AFHTTPSessionManager.m in Sources */,
+				FA81B0580C251C3164641D94BA11FD72 /* AFImageDownloader.m in Sources */,
+				26C8E374760DEF0ED0C61385031D3255 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				D57A93570F1CB8850568C309AED304BE /* AFNetworkReachabilityManager.m in Sources */,
+				E07C6F7FEF6F3BA4324574F8688668B4 /* AFSecurityPolicy.m in Sources */,
+				DFB882CB62CCBCCEE5E78E3E914CD555 /* AFURLRequestSerialization.m in Sources */,
+				52515F881E7B6D6942559DCF9C9E7D86 /* AFURLResponseSerialization.m in Sources */,
+				E6DF609D061548571EAA4AAFEA5E6D09 /* AFURLSessionManager.m in Sources */,
+				B008B39ADC836CB11A1554B6149111F9 /* Pods-SmartTvPakistan-Watch-AFNetworking-dummy.m in Sources */,
+				F221B135A498A2A390A966B6FF535C91 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				F93D75EC2474CAE5EC038DEA476257C8 /* UIButton+AFNetworking.m in Sources */,
+				1F53A26205D77D2B9F06150BD34535BE /* UIImageView+AFNetworking.m in Sources */,
+				68EC6000E10219CCFDD1E5450355A105 /* UIProgressView+AFNetworking.m in Sources */,
+				ED5DC5FA2205885AECE5858F53E76648 /* UIRefreshControl+AFNetworking.m in Sources */,
+				AE4DC409062638884052D33E6FCA6A2B /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE94104A7B136F52919DA718FE162FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8D6B103C9C5B32F4677A2F3512DDF0 /* AFAutoPurgingImageCache.m in Sources */,
+				CF4A053BDC6397EC3E0C75B4B930C4B6 /* AFHTTPSessionManager.m in Sources */,
+				794DFCC5EBC2E663B44BC75276E8848C /* AFImageDownloader.m in Sources */,
+				5F2442C101F1E8D3E6ED0DD515E5B9B2 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				4A94B717EF3E4FB46987AF5A9764C848 /* AFNetworkReachabilityManager.m in Sources */,
+				4684668DD30BA446AAB04EA1DEF78BAF /* AFSecurityPolicy.m in Sources */,
+				B7827ADE368211BF1E81C7FC795DF7C1 /* AFURLRequestSerialization.m in Sources */,
+				8255BC070D217FE2EDFCCC27C4C85CE8 /* AFURLResponseSerialization.m in Sources */,
+				6BC6490D232053A535F0CACE8572FB1B /* AFURLSessionManager.m in Sources */,
+				59459985A9BB21C6726C919C4C049F2A /* Pods-SmartTvPakistan-AFNetworking-dummy.m in Sources */,
+				7541B98373F6E04673774EF9D58FDCA5 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				9B1293E041B3A03665F472261338C1DA /* UIButton+AFNetworking.m in Sources */,
+				BD268C26C7DF9F12850E7D64CF506D89 /* UIImageView+AFNetworking.m in Sources */,
+				A1A9E9BE28AE3E982489C5C90B7D8CBD /* UIProgressView+AFNetworking.m in Sources */,
+				68C0C64D0062078583F36F696041E267 /* UIRefreshControl+AFNetworking.m in Sources */,
+				2C51FF16ABA93F7F8825659D6B9877E4 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3550151EA11E36542F3536B57C1984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC99BB4F68F853D8421861ADC7AFDC19 /* DDAbstractDatabaseLogger.m in Sources */,
+				C7CA9E0C38808AC9CC3AF71FBFBD2562 /* DDASLLogCapture.m in Sources */,
+				C55BAF7B5D4D88F133BA94DD9F889336 /* DDASLLogger.m in Sources */,
+				C4F4123B8579AE6F51FD87E61EAAB978 /* DDContextFilterLogFormatter.m in Sources */,
+				2E280CB2772BC4BEDDBBA61A63F30726 /* DDDispatchQueueLogFormatter.m in Sources */,
+				AAE451F21C76F4D2C8F35DE6A8F9935C /* DDFileLogger.m in Sources */,
+				32CA15E891F23B7618339A20EABF52DF /* DDLog.m in Sources */,
+				F861FB34A4A6B0AF540F533FF52ED5AA /* DDMultiFormatter.m in Sources */,
+				12EDB7618E84C01594069E846D6B8A0B /* DDTTYLogger.m in Sources */,
+				43CF8FE3A69CD7C365C27D85A10508FE /* Pods-SmartTvPakistan-TV-CocoaLumberjack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2DF97CBB12B317DDE46FD62B839DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9613E6BAA8183464FB6E3C3E4564D8 /* DDAbstractDatabaseLogger.m in Sources */,
+				29D85779A579ED00AE6A9157FADEF5CD /* DDASLLogCapture.m in Sources */,
+				C0D2FA820B56012D6B67BF8D0D3C0EDC /* DDASLLogger.m in Sources */,
+				7ED032B1BFF63E8AE295369E3E51A1B9 /* DDContextFilterLogFormatter.m in Sources */,
+				5F310CA9BF103E8201868338C3C1513F /* DDDispatchQueueLogFormatter.m in Sources */,
+				C5C4E91DBC3761C6EB44D6920C38C045 /* DDFileLogger.m in Sources */,
+				DC4B528FC984FA559C1422495A503223 /* DDLog.m in Sources */,
+				85C144335B731E145E3F2BBF543F4D58 /* DDMultiFormatter.m in Sources */,
+				52E7BC365D81E3B663E3F23DE86773D4 /* DDTTYLogger.m in Sources */,
+				DBDD8F49FE4ED71BA0181A3940D379D1 /* Pods-SmartTvPakistan-CocoaLumberjack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AE1657CEB4C4C966E8AD2963AF6036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */;
+			targetProxy = 0D1903730BA3BDA3C27B56DAAF757187 /* PBXContainerItemProxy */;
+		};
+		098A3B929AF8C2F26AA618EBEE1607EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmartTvPakistan-CocoaLumberjack";
+			target = 8CF7D67B43887F76400F00B7AF3417E3 /* Pods-SmartTvPakistan-CocoaLumberjack */;
+			targetProxy = EBF4095568F5B7DF4E7E4B6B579FBBC1 /* PBXContainerItemProxy */;
+		};
+		21A85D2D56BBEA36500F5382FA340CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmartTvPakistan-TV-AFNetworking";
+			target = F87A3717E0B03B8DBD7DEDF91314290D /* Pods-SmartTvPakistan-TV-AFNetworking */;
+			targetProxy = 95AEB91D8633F578DA8AF2E47F5D4B76 /* PBXContainerItemProxy */;
+		};
+		26BEBCB28E76A77C871521E28C99DFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmartTvPakistan-Watch-AFNetworking";
+			target = ADFA4D880F7C5BC37B71B116E742BE09 /* Pods-SmartTvPakistan-Watch-AFNetworking */;
+			targetProxy = 3AF2AD0758E3798FAA571B1A54582C85 /* PBXContainerItemProxy */;
+		};
+		3DC72FCDA555DE1E0E669825182C7FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MFSideMenu;
+			target = 0FB3864CF47A4C4BD1587783785938C3 /* MFSideMenu */;
+			targetProxy = CAAB1AB2715E77DBD63AAFE7CB241085 /* PBXContainerItemProxy */;
+		};
+		62FB6C4004E75C2DB3E366C4E5199980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmartTvPakistan-AFNetworking";
+			target = 5AABBD71D3E610D5750161B53D6D46FB /* Pods-SmartTvPakistan-AFNetworking */;
+			targetProxy = 1D3361FF033FE0AC0D6285BF3A7412AF /* PBXContainerItemProxy */;
+		};
+		969A99605289923B9FD1AC17938E9638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MFSideMenu;
+			target = 0FB3864CF47A4C4BD1587783785938C3 /* MFSideMenu */;
+			targetProxy = D8976E24374BA7B24D46BF951839EEC0 /* PBXContainerItemProxy */;
+		};
+		A45738F9DB9CDFED3B148E2A5B25B649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmartTvPakistan-Watch-CocoaLumberjack";
+			target = C8156656B53564EEEEAEA98198B5E2C2 /* Pods-SmartTvPakistan-Watch-CocoaLumberjack */;
+			targetProxy = 80C743AE10B90474DE101FDF386E5299 /* PBXContainerItemProxy */;
+		};
+		B85A53E966173FF213AC912E4F61E1CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmartTvPakistan-TV-CocoaLumberjack";
+			target = A9ED6C259AA74EBD230EF5879D87428C /* Pods-SmartTvPakistan-TV-CocoaLumberjack */;
+			targetProxy = 9BAD366B303413359DFF88CFEDF86BB1 /* PBXContainerItemProxy */;
+		};
+		E829EBD4C7F04B734FF89664458D8279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */;
+			targetProxy = AE1AB2E4F913F58131CFD30F30E50D08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		058F841DEE5A181DFDA2230B6133D757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EFC10E95AB6AD82C437899DD10EC4B /* Pods-SmartTvPakistan-TV.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		060E6079023A7F08CD827DEA79B79FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		08D5796A7C0FB9FB11C1005D30820497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5356D57F8559E2E9A2D85E2BE99F18C6 /* Pods-SmartTvPakistan-Watch-AFNetworking.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartTvPakistan-Watch-AFNetworking/Pods-SmartTvPakistan-Watch-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0C17C3BEE9015396D3B40CEC937B1F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755B72A7EDD5C6FB5A3A947551AFFA27 /* Pods-SmartTvPakistan-TV-AFNetworking.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartTvPakistan-TV-AFNetworking/Pods-SmartTvPakistan-TV-AFNetworking-prefix.pch";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		2EB7464BFC4B881299B5657C95CD0AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A0A8D6C72D7506A1A28F7EEC25CA72 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		31C42DA409F6675206DB5F0C14F6AC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE2ABFEE15F267C81268142AEA6DB37D /* Pods-SmartTvPakistan-Watch.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		37EB2F78209FD4013E0AE9D47A3BBF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928D13DDC7F8B333126457D1865BDE9D /* Pods-SmartTvPakistan-Watch-CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartTvPakistan-Watch-CocoaLumberjack/Pods-SmartTvPakistan-Watch-CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		545BDFC4B31BB757EB03CB2A51265B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9C656E291AD6F4304F16CC5A859848 /* Pods-SmartTvPakistan.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		65933768F8125CAE64CB18C76E4693BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25096F77AE40A6F93C22C79929F7D02 /* Pods-SmartTvPakistan-TV-CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartTvPakistan-TV-CocoaLumberjack/Pods-SmartTvPakistan-TV-CocoaLumberjack-prefix.pch";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		690D84B694C4CB44442CA35BACE30CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D18E453BA9DB7CECAA4D8888F4F9FF /* Pods-SmartTvPakistan-AFNetworking.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartTvPakistan-AFNetworking/Pods-SmartTvPakistan-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7C7A23EA8808D072A78CCF515FE8A182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E4694C6DD6C015F4A7CA4704F4034B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D18E453BA9DB7CECAA4D8888F4F9FF /* Pods-SmartTvPakistan-AFNetworking.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartTvPakistan-AFNetworking/Pods-SmartTvPakistan-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8E18AEB0A687C6430F8744E7E7990F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFCBCEDBA01B645E0768C89F2D2518C /* Pods-SmartTvPakistan-Watch.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8ED06547DD217658B9D5F6B59AD11013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569CCB036E5EDDC17C481296A9D0F0D0 /* Pods-SmartTvPakistan.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		919FAA2929EE9C5D42F4E864F99B6175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A0A8D6C72D7506A1A28F7EEC25CA72 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AAA18DA66B103B23C40ADA19D2179703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB44B802C8DBA697FC0E8DAD681E731 /* Pods-SmartTvPakistan-CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartTvPakistan-CocoaLumberjack/Pods-SmartTvPakistan-CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C14E1C4249013D9D994C82CE7E26B0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45EA68C2C10A471822F6CCD3ED7C4AC /* Pods-SmartTvPakistan-TV.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		C1A9514E974641C3CA23A4E98C2F9F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755B72A7EDD5C6FB5A3A947551AFFA27 /* Pods-SmartTvPakistan-TV-AFNetworking.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartTvPakistan-TV-AFNetworking/Pods-SmartTvPakistan-TV-AFNetworking-prefix.pch";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		C7980E7C22F8AC98D9C1D399F8CC7C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB44B802C8DBA697FC0E8DAD681E731 /* Pods-SmartTvPakistan-CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartTvPakistan-CocoaLumberjack/Pods-SmartTvPakistan-CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D408CA467125635F8E28793FE682D480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFE2C90519D942B68781C44E879527B /* MFSideMenu.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MFSideMenu/MFSideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D935DC700B3609014FC80B71AE77EA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFE2C90519D942B68781C44E879527B /* MFSideMenu.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MFSideMenu/MFSideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E027255230E3125DAEC7B5C3398F2585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5356D57F8559E2E9A2D85E2BE99F18C6 /* Pods-SmartTvPakistan-Watch-AFNetworking.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartTvPakistan-Watch-AFNetworking/Pods-SmartTvPakistan-Watch-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E66212C5AF766946664F298DBA743A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928D13DDC7F8B333126457D1865BDE9D /* Pods-SmartTvPakistan-Watch-CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartTvPakistan-Watch-CocoaLumberjack/Pods-SmartTvPakistan-Watch-CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EBC093F742DF4F5599D48FA201496DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25096F77AE40A6F93C22C79929F7D02 /* Pods-SmartTvPakistan-TV-CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartTvPakistan-TV-CocoaLumberjack/Pods-SmartTvPakistan-TV-CocoaLumberjack-prefix.pch";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13616B1436EC508602CC95A85D62AF06 /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-TV-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A9514E974641C3CA23A4E98C2F9F24 /* Debug */,
+				0C17C3BEE9015396D3B40CEC937B1F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18194C7D94D84EB0ACEEC4850406FC88 /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C14E1C4249013D9D994C82CE7E26B0E6 /* Debug */,
+				058F841DEE5A181DFDA2230B6133D757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060E6079023A7F08CD827DEA79B79FAD /* Debug */,
+				7C7A23EA8808D072A78CCF515FE8A182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE089B00214BF0C3240C0DDD4ADFD4B /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C42DA409F6675206DB5F0C14F6AC46 /* Debug */,
+				8E18AEB0A687C6430F8744E7E7990F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F5C76216E026D785291F440EFDA4E9 /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4694C6DD6C015F4A7CA4704F4034B7 /* Debug */,
+				690D84B694C4CB44442CA35BACE30CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB3B705A3C3295E418675343383F16F /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED06547DD217658B9D5F6B59AD11013 /* Debug */,
+				545BDFC4B31BB757EB03CB2A51265B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73A3D20B7439C998C970F3AFEF81A72F /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-TV-CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65933768F8125CAE64CB18C76E4693BC /* Debug */,
+				EBC093F742DF4F5599D48FA201496DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD130CB7D44EC79A01B25A15A28C1FA /* Build configuration list for PBXNativeTarget "MFSideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D935DC700B3609014FC80B71AE77EA9B /* Debug */,
+				D408CA467125635F8E28793FE682D480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C932D4B4768815227D74FECD93B6DBF /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-Watch-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D5796A7C0FB9FB11C1005D30820497 /* Debug */,
+				E027255230E3125DAEC7B5C3398F2585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9169909509B4DDAAAE5420E9D320E190 /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA18DA66B103B23C40ADA19D2179703 /* Debug */,
+				C7980E7C22F8AC98D9C1D399F8CC7C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC60EC3EB4D0F6B700C367295077EC2C /* Build configuration list for PBXNativeTarget "Pods-SmartTvPakistan-Watch-CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EB2F78209FD4013E0AE9D47A3BBF18 /* Debug */,
+				E66212C5AF766946664F298DBA743A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F5671C4613023EE94A2E62DA06031D /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB7464BFC4B881299B5657C95CD0AF5 /* Debug */,
+				919FAA2929EE9C5D42F4E864F99B6175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

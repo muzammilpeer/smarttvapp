@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Notification - SmartTvPakistan-Watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SmartTvPakistan-TV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SmartTvPakistan-Watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SmartTvPakistan.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7F92FAC21C1D5AD5004AE9AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F92FADE1C1D5AD5004AE9AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F92FAE91C1D5AD5004AE9AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F92FAFF1C1D5AF9004AE9AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F92FB171C1D5AF9004AE9AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F92FB221C1D5AF9004AE9AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F92FB341C1D5B34004AE9AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
