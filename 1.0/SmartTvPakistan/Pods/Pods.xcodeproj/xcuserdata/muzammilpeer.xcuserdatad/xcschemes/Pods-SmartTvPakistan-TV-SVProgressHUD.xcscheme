@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '74B6FA0F36962AB389824F83'
-               BlueprintName = 'MBProgressHUD'
+               BlueprintIdentifier = '37B02A8FAB9E4EBE3227D721'
+               BlueprintName = 'Pods-SmartTvPakistan-TV-SVProgressHUD'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libMBProgressHUD.a'>
+               BuildableName = 'libPods-SmartTvPakistan-TV-SVProgressHUD.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

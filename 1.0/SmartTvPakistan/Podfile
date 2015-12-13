@@ -6,7 +6,7 @@ platform :ios, '8.0'
 target 'SmartTvPakistan' do
 pod 'MFSideMenu'
 pod 'CocoaLumberjack'
-pod 'MBProgressHUD', '~> 0.9.1'
+pod 'SVProgressHUD', :head
 pod 'AFNetworking', '~> 3.0'
 end
 
@@ -21,6 +21,7 @@ end
 target 'SmartTvPakistan-TV' do
 platform :tvos, '9.0'
 pod 'CocoaLumberjack'
+pod 'SVProgressHUD', :head
 pod 'AFNetworking', '~> 3.0'
 end
 
@@ -33,13 +34,14 @@ target 'SmartTvPakistan-TVUITests' do
 end
 
 target 'SmartTvPakistan-Watch' do
-pod 'MFSideMenu'
+platform :watchos, '9.0'
 pod 'CocoaLumberjack'
-pod 'MBProgressHUD', '~> 0.9.1'
 pod 'AFNetworking', '~> 3.0'
 end
 
 target 'SmartTvPakistan-Watch Extension' do
-
+platform :watchos, '9.0'
+pod 'CocoaLumberjack'
+pod 'AFNetworking', '~> 3.0'
 end
 

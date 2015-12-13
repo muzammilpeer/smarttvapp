@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5B8CFACF01D782C43CAAB848'
+               BlueprintIdentifier = '15C044BA410B70303906C7CB'
                BlueprintName = 'Pods-SmartTvPakistan-Watch-AFNetworking'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-SmartTvPakistan-Watch-AFNetworking.a'>

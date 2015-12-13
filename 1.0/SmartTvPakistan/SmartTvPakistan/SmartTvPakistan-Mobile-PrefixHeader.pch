@@ -1,0 +1,17 @@
+//
+//  SmartTvPakistan-Mobile-PrefixHeader.pch
+//  SmartTvPakistan
+//
+//  Created by Muzammil Peer on 12/13/15.
+//  Copyright © 2015 Muzammil Peer. All rights reserved.
+//
+
+#ifndef SmartTvPakistan_Mobile_PrefixHeader_pch
+#define SmartTvPakistan_Mobile_PrefixHeader_pch
+#import "SmartTvPakistan-BasePrefixHeader.pch"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "MFSideMenuContainerViewController.h"
+
+#endif /* SmartTvPakistan_Mobile_PrefixHeader_pch */

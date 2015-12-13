@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MBProgressHUD.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>MFSideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-SmartTvPakistan-SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SmartTvPakistan-TV-AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -34,7 +34,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-SmartTvPakistan-TV-SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SmartTvPakistan-TV.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SmartTvPakistan-Watch Extension-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SmartTvPakistan-Watch Extension-CocoaLumberjack.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SmartTvPakistan-Watch Extension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -62,57 +82,77 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>07F791B1D1F6C5A9C8CEFDB27F8A9883</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0FB3864CF47A4C4BD1587783785938C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5AABBD71D3E610D5750161B53D6D46FB</key>
+		<key>13073778464F40884CA346E2AA9C7CC0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8021D6D400E4374F094D0624C0F79C66</key>
+		<key>17747EDE8FC47822F7C14188BCBFDF38</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8CF7D67B43887F76400F00B7AF3417E3</key>
+		<key>1E4AA258130952FF7695992F5142ECE6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A9ED6C259AA74EBD230EF5879D87428C</key>
+		<key>418F1C2EAB4CA1244C25E6B17DBD7A20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ADFA4D880F7C5BC37B71B116E742BE09</key>
+		<key>4D7E4B0FE2ECB48BB7034373F4D5B18C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C07ABF31E62BEA444431C95087605B99</key>
+		<key>64C6FAF3AECDEEF88908720161D35977</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C8156656B53564EEEEAEA98198B5E2C2</key>
+		<key>786125FEDD3AD017A49580ADC162FF0F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F87A3717E0B03B8DBD7DEDF91314290D</key>
+		<key>92FD9A67576A32A18CEF7DCB857698B0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F8D823263411EA1C0C5EC0E773566E88</key>
+		<key>99ECBE322D144600007263ED4815C367</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
+		<key>B03FAA9634C8BA7F625B127B904DDA63</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B533E5F4EEA3A2D1393C4E774BBDC062</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5ACC84AEE5D4CECC62941574FECAD21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCB84E3BEBFC424DB5F1D1F93EC1DB55</key>
 		<dict>
 			<key>primary</key>
 			<true/>
